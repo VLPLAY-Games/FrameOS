@@ -13,6 +13,7 @@ def main():
     touch_logger = logger.Logger("TouchSensor", "touch_sensor.log")
     microphone_logger = logger.Logger("Microphone", "microphone.log")
     audio_logger = logger.Logger("AudioModule", "audio.log")
+    power_logger = logger.Logger("PowerManagment", "power.log")
     # camera = cam.Camera(logger=cam_logger)
     # camera.initialize_camera()
     
