@@ -22,9 +22,9 @@ makedirs(MODELS_DIR, exist_ok=True)
 
 # RGB
 
-RGB_RED_PIN = 17
-RGB_GREEN_PIN = 27
-RGB_BLUE_PIN = 22
+RGB_RED_PIN = 11
+RGB_GREEN_PIN = 13
+RGB_BLUE_PIN = 15
 
 RGB_COLORS = {
     # Основные цвета
@@ -58,3 +58,23 @@ RGB_COLORS = {
     'energetic_red': (100, 20, 20),# Энергичный красный
     'relaxing_green': (20, 60, 20),# Расслабляющий зеленый
 }
+
+# Touch Sensor
+
+TOUCH_SENSOR_PIN = 18 
+TOUCH_LONG_PRESS_DURATION = 1.0
+TOUCH_DOUBLE_TAP_INTERVAL = 0.5
+
+
+# Power Managment
+
+I2C_BUS = 1  # Номер I2C шины (0 для Pi 1, 1 для Pi 2-4)
+BATTERY_CAPACITY = 3400  # mAh
+BATTERY_NOMINAL_VOLTAGE = 3.7  # V
+BATTERY_MAX_VOLTAGE = 4.2  # V
+BATTERY_MIN_VOLTAGE = 3.0  # V
+BATTERY_SHUTDOWN_VOLTAGE = 3.2  # V
+INA219_ADDRESS = 0x40  # Адрес I2C
+INA219_SHUNT_OHMS = 0.1  # Сопротивление шунта
+INA219_MAX_AMPS = 2.0  # Максимальный ток
+POWER_MONITOR_INTERVAL = 30.0  # Интервал обновления в секундах

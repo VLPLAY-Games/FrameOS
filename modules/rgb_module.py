@@ -1,53 +1,49 @@
 import time
 import threading
 import RPi.GPIO as GPIO
+import system.gpio_manager as gpio_manager
 
 class KY016_RGB:
     """Класс для управления RGB светодиодом KY-016"""
     
-    def __init__(self, red_pin, green_pin, blue_pin, logger=None):
+    def __init__(self, red_pin, green_pin, blue_pin, logger=None, gpio_manager=None):
         """
-        Инициализация RGB модуля
-        
-        Args:
-            red_pin (int): GPIO пин для красного цвета
-            green_pin (int): GPIO пин для зеленого цвета
-            blue_pin (int): GPIO пин для синего цвета
-            logger: Экземпляр логгера
+        Инициализация RGB модуля с использованием единого GPIO менеджера
         """
         self.logger = logger
         self.red_pin = red_pin
         self.green_pin = green_pin
         self.blue_pin = blue_pin
         
+        # Используем единый менеджер GPIO
+        self.gpio_manager = gpio_manager
+        self.GPIO = self.gpio_manager.GPIO
+        
         self.current_color = (0, 0, 0)
         self.is_breathing = False
         self.breathing_thread = None
         
-        try:
-            self.GPIO = GPIO
-            self.GPIO.setmode(self.GPIO.BCM)
-            self.GPIO.setwarnings(False)
-            
-            # Настройка пинов как выход
-            self.GPIO.setup(self.red_pin, self.GPIO.OUT)
-            self.GPIO.setup(self.green_pin, self.GPIO.OUT)
-            self.GPIO.setup(self.blue_pin, self.GPIO.OUT)
-            
-            # Создание PWM объектов
-            self.red_pwm = self.GPIO.PWM(self.red_pin, 100)  # 100 Hz
-            self.green_pwm = self.GPIO.PWM(self.green_pin, 100)
-            self.blue_pwm = self.GPIO.PWM(self.blue_pin, 100)
-            
-            # Запуск PWM
-            self.red_pwm.start(0)
-            self.green_pwm.start(0)
-            self.blue_pwm.start(0)
-            
-            self.logger.info(f"RGB module initialized on pins: R{red_pin}, G{green_pin}, B{blue_pin}")
-
-        except Exception as e:
-            self.logger.error(f"RGB module initialization error: {e}")
+        # Настройка пинов как выходов
+        if self.GPIO:
+            if (self.gpio_manager.setup_output(red_pin) and
+                self.gpio_manager.setup_output(green_pin) and
+                self.gpio_manager.setup_output(blue_pin)):
+                
+                # Создание PWM объектов
+                self.red_pwm = self.GPIO.PWM(red_pin, 100)
+                self.green_pwm = self.GPIO.PWM(green_pin, 100)
+                self.blue_pwm = self.GPIO.PWM(blue_pin, 100)
+                
+                # Запуск PWM
+                self.red_pwm.start(0)
+                self.green_pwm.start(0)
+                self.blue_pwm.start(0)
+                
+                self.logger.info(f"RGB module initialized on pins: R{red_pin}, G{green_pin}, B{blue_pin}")
+            else:
+                self.logger.error("RGB module pins configuration error")
+        else:
+            self.logger.warning("GPIO not available, emulation mode used")
     
     def set_color(self, red, green, blue):
         """
