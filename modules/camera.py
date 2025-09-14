@@ -46,12 +46,12 @@ class Camera:
             
             self.is_camera_active = True
             if self.logger:
-                self.logger.info("Камера инициализирована (picamera2)")
+                self.logger.info("Camera initialized (picamera2)")
             else:
-                print("Камера инициализирована (picamera2)")
+                print("Camera initialized (picamera2)")
             
         except Exception as e:
-            error_msg = f"Ошибка инициализации камеры: {e}"
+            error_msg = f"Camera initialization error: {e}"
             if self.logger:
                 self.logger.error(error_msg)
             else:
@@ -64,18 +64,18 @@ class Camera:
             self.camera.close()
             self.is_camera_active = False
             if self.logger:
-                self.logger.info("Камера закрыта")
+                self.logger.info("The camera is closed")
             else:
-                print("Камера закрыта")
+                print("The camera is closed")
             
     def start_camera(self):
         """Запуск камеры (необходимо перед захватом)"""
         if self.is_camera_active and not self.camera.started:
             self.camera.start()
             if self.logger:
-                self.logger.info("Камера запущена")
+                self.logger.info("The camera is running")
             else:
-                print("Камера запущена")
+                print("The camera is running")
             
     def capture_photo(self, filename=None, warmup_time=2):
         """
@@ -89,7 +89,7 @@ class Camera:
             bool: Успешно ли выполнено сохранение
         """
         if not self.is_camera_active:
-            error_msg = "Камера не активна!"
+            error_msg = "Camera is not active!"
             if self.logger:
                 self.logger.error(error_msg)
             else:
@@ -107,7 +107,7 @@ class Camera:
                 filename = f"{cfg.CAMERA_HOME_DIR}photo_{timestamp}.jpg"
             
             # Даем камере время для настройки
-            warmup_msg = f"Прогрев камеры {warmup_time} секунд..."
+            warmup_msg = f"Warming up the camera {warmup_time} sec..."
             if self.logger:
                 self.logger.info(warmup_msg)
             else:
@@ -116,7 +116,7 @@ class Camera:
             
             # Захват фото
             self.camera.capture_file(filename)
-            success_msg = f"Фото сохранено как '{filename}'"
+            success_msg = f"Photo saved as '{filename}'"
             if self.logger:
                 self.logger.info(success_msg)
             else:
@@ -124,7 +124,7 @@ class Camera:
             return True
             
         except Exception as e:
-            error_msg = f"Ошибка при захвате фото: {e}"
+            error_msg = f"Error capturing photo: {e}"
             if self.logger:
                 self.logger.error(error_msg)
             else:
@@ -170,7 +170,7 @@ class Camera:
                 )
                 self.camera.configure(config)
             
-            settings_msg = f"Настройки камеры применены: brightness={brightness}, contrast={contrast}, rotation={rotation}"
+            settings_msg = f"Camera settings applied: brightness={brightness}, contrast={contrast}, rotation={rotation}"
             if self.logger:
                 self.logger.info(settings_msg)
             else:

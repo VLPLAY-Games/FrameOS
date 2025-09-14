@@ -43,11 +43,11 @@ class Logger:
         self.logger.addHandler(file_handler)
         self.logger.addHandler(console_handler)
         
-        self.info(f"Logger '{name}' инициализирован, файл: {log_file}")
+        self.info(f"Logger '{name}' initialized, file: {log_file}")
 
     def __del__(self):
         """Деинициализация логгера"""
-        self.info(f"Logger '{self.name}' деинициализирован")
+        self.info(f"Logger '{self.name}' deinitialized")
 
     def debug(self, message):
         """Логирование отладочного сообщения"""
@@ -85,6 +85,6 @@ class Logger:
         try:
             with open(self.log_file, 'w', encoding='utf-8'):
                 pass
-            self.info("Файл логов очищен")
+            self.info("Log file cleared")
         except Exception as e:
-            self.error(f"Ошибка при очистке файла логов: {e}")
+            self.error(f"Error clearing log file: {e}")

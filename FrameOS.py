@@ -1,10 +1,10 @@
 import config as cfg
-import logger
-import camera as cam
-import cv
-import rgb_module as rgb
-import touch_sensor as ts
-import microphone
+import modules.logger as logger
+import modules.camera as cam
+import modules.cv as cv
+import modules.rgb_module as rgb
+import modules.touch_sensor as ts
+import modules.microphone as microphone
 
 def main():
     cam_logger = logger.Logger("CameraSystem", "camera.log")
