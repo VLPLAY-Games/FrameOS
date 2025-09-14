@@ -1,6 +1,7 @@
 import config as cfg
 from picamera2 import Picamera2
 import time
+import threading
 from datetime import datetime
 import os
 
@@ -175,3 +176,194 @@ class Camera:
                 self.logger.info(settings_msg)
             else:
                 print(settings_msg)
+
+    def start_recording(self, filename=None, duration=None):
+        """
+        Начало записи видео
+        
+        Args:
+            filename (str): Имя файла для сохранения видео
+            duration (int): Длительность записи в секундах (опционально)
+            
+        Returns:
+            bool: Успешно ли начата запись
+        """
+        if not self.is_camera_active:
+            error_msg = "The camera is not active for video recording!"
+            if self.logger:
+                self.logger.error(error_msg)
+            else:
+                print(error_msg)
+            return False
+            
+        if hasattr(self, 'is_recording') and self.is_recording:
+            error_msg = "Recording is already in progress!"
+            if self.logger:
+                self.logger.warning(error_msg)
+            else:
+                print(error_msg)
+            return False
+            
+        try:
+            # Запускаем камеру если еще не запущена
+            if not self.camera.started:
+                self.start_camera()
+                
+            # Генерируем имя файла, если не указано
+            if filename is None:
+                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                filename = f"video_{timestamp}.mp4"
+                
+            # Создаем конфигурацию для видео
+            video_config = self.camera.create_video_configuration(
+                main={"size": self.resolution},
+                encode="main"
+            )
+            self.camera.configure(video_config)
+            
+            # Начинаем запись
+            self.camera.start_recording(output=filename)
+            self.is_recording = True
+            self.recording_filename = filename
+            self.recording_start_time = datetime.now()
+            
+            success_msg = f"Video recording started: {filename}"
+            if self.logger:
+                self.logger.info(success_msg)
+            else:
+                print(success_msg)
+                
+            # Если указана длительность, запускаем таймер остановки
+            if duration:
+                self.recording_timer = threading.Timer(duration, self.stop_recording)
+                self.recording_timer.start()
+                duration_msg = f"Auto stop in {duration} sec"
+                if self.logger:
+                    self.logger.info(duration_msg)
+                else:
+                    print(duration_msg)
+                    
+            return True
+            
+        except Exception as e:
+            error_msg = f"Error starting video recording: {e}"
+            if self.logger:
+                self.logger.error(error_msg)
+            else:
+                print(error_msg)
+            return False
+
+    def stop_recording(self):
+        """
+        Остановка записи видео
+        
+        Returns:
+            bool: Успешно ли остановлена запись
+            str: Имя файла с записанным видео
+        """
+        if not hasattr(self, 'is_recording') or not self.is_recording:
+            error_msg = "Video recording is not active!"
+            if self.logger:
+                self.logger.warning(error_msg)
+            else:
+                print(error_msg)
+            return False, None
+            
+        try:
+            # Останавливаем таймер автоостановки если он есть
+            if hasattr(self, 'recording_timer') and self.recording_timer:
+                self.recording_timer.cancel()
+                
+            # Останавливаем запись
+            self.camera.stop_recording()
+            
+            # Рассчитываем длительность записи
+            duration = (datetime.now() - self.recording_start_time).total_seconds()
+            
+            self.is_recording = False
+            filename = self.recording_filename
+            
+            success_msg = f"Video recording stopped: {filename} (duration: {duration:.1f} sec)"
+            if self.logger:
+                self.logger.info(success_msg)
+            else:
+                print(success_msg)
+                
+            # Очищаем атрибуты
+            del self.recording_filename
+            del self.recording_start_time
+            if hasattr(self, 'recording_timer'):
+                del self.recording_timer
+                
+            return True, filename
+            
+        except Exception as e:
+            error_msg = f"Error Stopping Video Recording: {e}"
+            if self.logger:
+                self.logger.error(error_msg)
+            else:
+                print(error_msg)
+            return False, None
+
+    def get_recording_status(self):
+        """
+        Получение статуса записи
+        
+        Returns:
+            dict: Информация о текущей записи или None если запись не активна
+        """
+        if not hasattr(self, 'is_recording') or not self.is_recording:
+            return None
+            
+        duration = (datetime.now() - self.recording_start_time).total_seconds()
+        
+        return {
+            'filename': self.recording_filename,
+            'start_time': self.recording_start_time,
+            'duration': duration,
+            'is_recording': self.is_recording
+        }
+
+    def toggle_recording(self, filename=None):
+        """
+        Переключение режима записи (старт/стоп)
+        
+        Args:
+            filename (str): Имя файла для сохранения видео
+            
+        Returns:
+            bool: Текущее состояние записи (True - запись идет, False - остановлена)
+            str: Имя файла или None
+        """
+        if hasattr(self, 'is_recording') and self.is_recording:
+            success, filename = self.stop_recording()
+            return False, filename
+        else:
+            success = self.start_recording(filename)
+            return success, filename if success else None
+
+
+
+# Как пользоваться
+
+# if camera.is_camera_active:
+#     camera.capture_photo(warmup_time=1)
+#     camera.close_camera()
+
+
+# # Начало записи
+# camera.start_recording("my_video.mp4")
+
+# # Запись на 10 секунд с автоостановкой
+# camera.start_recording("short_video.mp4", duration=10)
+
+# # Остановка записи
+# success, filename = camera.stop_recording()
+
+# # Переключение записи
+# is_recording, filename = camera.toggle_recording()
+
+# # Проверка статуса
+# status = camera.get_recording_status()
+# if status:
+#     print(f"Идет запись: {status['filename']}, длительность: {status['duration']:.1f} сек")

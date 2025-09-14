@@ -4,7 +4,17 @@ from datetime import datetime
 import os
 
 class Logger:
-    """Универсальный класс для логирования в файл и консоль"""
+    """Универсальный класс для логирования в файл и консоль с цветным выводом уровня"""
+    
+    # Цвета для уровней логирования
+    LEVEL_COLORS = {
+        'DEBUG': '\033[94m',     # Синий
+        'INFO': '\033[92m',      # Зеленый
+        'WARNING': '\033[93m',   # Желтый
+        'ERROR': '\033[91m',     # Красный
+        'CRITICAL': '\033[95m',  # Бордовый/Пурпурный
+        'RESET': '\033[0m',      # Сброс цвета
+    }
     
     def __init__(self, name="Logger", log_file="FrameOS.log", level=logging.INFO):
         """
@@ -26,17 +36,20 @@ class Logger:
         if self.logger.handlers:
             self.logger.handlers.clear()
         
-        # Создаем форматтер
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        # Создаем форматтер для файла (без цветов)
+        file_formatter = logging.Formatter('[%(asctime)s]  [%(levelname)s]  [%(name)s] - %(message)s')
+        
+        # Создаем форматтер для консоли (с цветами только для уровня)
+        console_formatter = ColoredFormatter('[%(asctime)s] [%(levelname)s]  [%(name)s] - %(message)s')
         
         # Файловый обработчик
         file_handler = logging.FileHandler(self.log_file, encoding='utf-8')
-        file_handler.setFormatter(formatter)
+        file_handler.setFormatter(file_formatter)
         file_handler.setLevel(level)
         
         # Консольный обработчик
         console_handler = logging.StreamHandler()
-        console_handler.setFormatter(formatter)
+        console_handler.setFormatter(console_formatter)
         console_handler.setLevel(level)
         
         # Добавляем обработчики
@@ -88,3 +101,26 @@ class Logger:
             self.info("Log file cleared")
         except Exception as e:
             self.error(f"Error clearing log file: {e}")
+
+  
+class ColoredFormatter(logging.Formatter):
+    """Кастомный форматтер для цветного вывода только уровня логирования"""
+    
+    def format(self, record):
+        # Получаем стандартное форматированное сообщение
+        message = super().format(record)
+        
+        # Ищем уровень логирования в формате [LEVELNAME]
+        level_pattern = f"[{record.levelname}]"
+        if level_pattern in message:
+            level_name = record.levelname
+            if level_name in Logger.LEVEL_COLORS:
+                color = Logger.LEVEL_COLORS[level_name]
+                reset = Logger.LEVEL_COLORS['RESET']
+                # Заменяем только уровень на цветной
+                message = message.replace(
+                    level_pattern, 
+                    f"{color}{level_pattern}{reset}"
+                )
+        
+        return message
