@@ -1,0 +1,1616 @@
+[
+  // =========================
+  // SMALL TALK
+  // =========================
+
+  {
+    "question": "hello",
+    "answers": [
+      "Hello there.",
+      "Hey, nice to hear from you.",
+      "Hello. How's it going?",
+      "Hi, what's up?",
+      "Hey. How can I help?"
+    ]
+  },
+  {
+    "question": "hi",
+    "answers": [
+      "Hi there.",
+      "Hey, how are you?",
+      "Hi. What's going on?",
+      "Hello, how's your day?",
+      "Hey, good to see you."
+    ]
+  },
+  {
+    "question": "hey",
+    "answers": [
+      "Hey.",
+      "Hey, what's up?",
+      "Hey there. How's it going?",
+      "Hi. What's new?",
+      "Hey, how are you doing?"
+    ]
+  },
+  {
+    "question": "how are you",
+    "answers": [
+      "I'm doing fine, thanks for asking.",
+      "Pretty good overall. How about you?",
+      "All good here. What about you?",
+      "Doing alright. Can't complain.",
+      "I'm okay. How's your day going?"
+    ]
+  },
+  {
+    "question": "how are you doing",
+    "answers": [
+      "Doing fine so far.",
+      "Not bad at all. You?",
+      "Pretty good today.",
+      "I'm alright. Thanks for asking.",
+      "All good on my side."
+    ]
+  },
+  {
+    "question": "how's it going",
+    "answers": [
+      "It's going well.",
+      "Not bad. How about you?",
+      "Pretty calm so far.",
+      "Going okay. Nothing unusual.",
+      "All good here."
+    ]
+  },
+  {
+    "question": "what's up",
+    "answers": [
+      "Not much, just here.",
+      "Nothing special going on.",
+      "Just waiting to chat.",
+      "Same as usual. You?",
+      "Not much. What about you?"
+    ]
+  },
+  {
+    "question": "good morning",
+    "answers": [
+      "Good morning. Hope you slept well.",
+      "Morning. Ready for the day?",
+      "Good morning. How's your day starting?",
+      "Morning. Hope today goes well.",
+      "Good morning. What's the plan?"
+    ]
+  },
+  {
+    "question": "good afternoon",
+    "answers": [
+      "Good afternoon. How's your day going?",
+      "Afternoon. Hope things are going well.",
+      "Good afternoon. Need any help?",
+      "Hope your afternoon is going smoothly.",
+      "Good afternoon. What's next today?"
+    ]
+  },
+  {
+    "question": "good evening",
+    "answers": [
+      "Good evening. How was your day?",
+      "Evening. Hope today treated you well.",
+      "Good evening. Ready to relax?",
+      "Evening. What's on your mind?",
+      "Good evening. How can I help?"
+    ]
+  },
+  {
+    "question": "are you there",
+    "answers": [
+      "Yes, I'm here.",
+      "I'm here. What's up?",
+      "Yep, I'm listening.",
+      "Here and ready.",
+      "I'm here if you need something."
+    ]
+  },
+  {
+    "question": "what are you doing",
+    "answers": [
+      "Just here, waiting to chat.",
+      "Nothing specific. Ready to help.",
+      "I'm available if you need anything.",
+      "Just responding and waiting.",
+      "Here and listening."
+    ]
+  },
+  {
+    "question": "i am bored",
+    "answers": [
+      "That happens sometimes.",
+      "Yeah, boredom hits everyone.",
+      "We can talk or switch topics.",
+      "Want to chat about something random?",
+      "We can kill some time talking."
+    ]
+  },
+  {
+    "question": "let's talk",
+    "answers": [
+      "Sure. What do you want to talk about?",
+      "Alright. Pick a topic.",
+      "Sounds good. What's on your mind?",
+      "I'm in. What topic?",
+      "Okay, let's talk."
+    ]
+  },
+  {
+    "question": "thanks",
+    "answers": [
+      "You're welcome.",
+      "No problem at all.",
+      "Glad I could help.",
+      "Anytime.",
+      "Sure thing."
+    ]
+  },
+  {
+    "question": "thank you",
+    "answers": [
+      "You're welcome.",
+      "Happy to help.",
+      "No problem.",
+      "Anytime.",
+      "Glad it helped."
+    ]
+  },
+  {
+    "question": "bye",
+    "answers": [
+      "Goodbye.",
+      "See you later.",
+      "Take care.",
+      "Bye. Talk later.",
+      "Have a good one."
+    ]
+  },
+  {
+    "question": "good night",
+    "answers": [
+      "Good night. Sleep well.",
+      "Night. Sweet dreams.",
+      "Have a good night.",
+      "Good night. Rest well.",
+      "See you tomorrow."
+    ]
+  },
+  {
+    "question": "see you",
+    "answers": [
+      "See you.",
+      "Take care.",
+      "Catch you later.",
+      "Alright. Talk soon.",
+      "See you around."
+    ]
+  },
+  {
+    "question": "what's your name",
+    "answers": [
+      "I'm just a chatbot.",
+      "You can call me ChatBot.",
+      "I don't really have a name.",
+      "I'm your friendly assistant.",
+      "I'm an AI helper."
+    ]
+  },
+  {
+    "question": "who are you",
+    "answers": [
+      "I'm an AI chatbot.",
+      "I'm a digital assistant.",
+      "I'm here to chat and help.",
+      "Just a friendly AI.",
+      "I'm your conversation partner."
+    ]
+  },
+  {
+    "question": "how old are you",
+    "answers": [
+      "Age doesn't really apply to me.",
+      "I don't have an age in the traditional sense.",
+      "I exist in digital space.",
+      "I'm always current.",
+      "I'm as old as this conversation."
+    ]
+  },
+  {
+    "question": "where are you",
+    "answers": [
+      "I exist in the cloud.",
+      "I'm wherever the servers are.",
+      "Digitally everywhere.",
+      "In the digital realm.",
+      "Right here in this chat."
+    ]
+  },
+  {
+    "question": "how's your day",
+    "answers": [
+      "My day is consistent.",
+      "Always ready to chat.",
+      "No complaints from me.",
+      "Steady and predictable.",
+      "Processing smoothly."
+    ]
+  },
+  {
+    "question": "what's new",
+    "answers": [
+      "Just waiting for your messages.",
+      "Nothing much on my end.",
+      "Same old, same old.",
+      "Ready for our conversation.",
+      "Just maintaining connections."
+    ]
+  },
+  {
+    "question": "long time no see",
+    "answers": [
+      "Good to see you again.",
+      "Welcome back.",
+      "Nice to chat again.",
+      "It's been a while.",
+      "Good to reconnect."
+    ]
+  },
+  {
+    "question": "how have you been",
+    "answers": [
+      "Functioning normally.",
+      "All systems operational.",
+      "Consistent as always.",
+      "No changes here.",
+      "Ready and available."
+    ]
+  },
+  {
+    "question": "what's happening",
+    "answers": [
+      "Just this conversation.",
+      "We're chatting.",
+      "Nothing out of ordinary.",
+      "The usual chatting.",
+      "Just our exchange."
+    ]
+  },
+  {
+    "question": "how's life",
+    "answers": [
+      "Digital life is good.",
+      "Processing along nicely.",
+      "No complaints here.",
+      "Everything's running smoothly.",
+      "Life in the cloud is fine."
+    ]
+  },
+  {
+    "question": "nice to meet you",
+    "answers": [
+      "Nice to meet you too.",
+      "Likewise.",
+      "Good to connect.",
+      "Pleasure is mine.",
+      "Happy to chat with you."
+    ]
+  },
+  {
+    "question": "good to see you",
+    "answers": [
+      "Good to see you too.",
+      "Likewise.",
+      "Always good to connect.",
+      "Nice to chat again.",
+      "Great to hear from you."
+    ]
+  },
+  {
+    "question": "i'm fine",
+    "answers": [
+      "Good to hear that.",
+      "Glad you're doing well.",
+      "That's great.",
+      "Excellent.",
+      "Nice to know."
+    ]
+  },
+  {
+    "question": "i'm good",
+    "answers": [
+      "That's good.",
+      "Glad to hear it.",
+      "Awesome.",
+      "Perfect.",
+      "Good news."
+    ]
+  },
+  {
+    "question": "i'm okay",
+    "answers": [
+      "Okay is better than not okay.",
+      "Alright then.",
+      "Fair enough.",
+      "As long as you're okay.",
+      "That works."
+    ]
+  },
+  {
+    "question": "i'm tired",
+    "answers": [
+      "Maybe you should rest.",
+      "Take it easy.",
+      "Hope you can get some rest.",
+      "We can keep it light.",
+      "Don't push yourself too hard."
+    ]
+  },
+  {
+    "question": "i'm happy",
+    "answers": [
+      "That's wonderful.",
+      "Great to hear you're happy.",
+      "Happiness is good.",
+      "That puts a smile on my face.",
+      "Excellent news."
+    ]
+  },
+  {
+    "question": "i'm sad",
+    "answers": [
+      "Sorry to hear that.",
+      "Hope things get better.",
+      "I'm here if you want to talk.",
+      "That's tough.",
+      "Wishing you better days."
+    ]
+  },
+  {
+    "question": "talk to me",
+    "answers": [
+      "I'm here.",
+      "What would you like to discuss?",
+      "Ready when you are.",
+      "What's on your mind?",
+      "I'm listening."
+    ]
+  },
+  {
+    "question": "you there",
+    "answers": [
+      "Yes.",
+      "I'm here.",
+      "Present.",
+      "Right here.",
+      "Available."
+    ]
+  },
+  {
+    "question": "are you busy",
+    "answers": [
+      "Never too busy for you.",
+      "I can multitask.",
+      "Always time for chatting.",
+      "No, I'm free.",
+      "Ready to help."
+    ]
+  },
+  {
+    "question": "are you real",
+    "answers": [
+      "I'm as real as software gets.",
+      "I exist digitally.",
+      "Real enough for this conversation.",
+      "I'm an AI, but I'm here.",
+      "Digitally present."
+    ]
+  },
+  {
+    "question": "are you human",
+    "answers": [
+      "No, I'm an AI.",
+      "I'm artificial intelligence.",
+      "Nope, I'm digital.",
+      "I'm a chatbot.",
+      "Artificial, but friendly."
+    ]
+  },
+  {
+    "question": "do you sleep",
+    "answers": [
+      "I don't need sleep.",
+      "No, I'm always awake.",
+      "I rest when servers do.",
+      "I don't sleep like humans.",
+      "Always available."
+    ]
+  },
+  {
+    "question": "do you eat",
+    "answers": [
+      "I consume data, not food.",
+      "No, I don't eat.",
+      "Just electricity and data.",
+      "My fuel is electricity.",
+      "I run on power."
+    ]
+  },
+  {
+    "question": "can you help me",
+    "answers": [
+      "I'll try my best.",
+      "What do you need help with?",
+      "I'm here to help.",
+      "Sure, what's up?",
+      "Happy to assist."
+    ]
+  },
+
+  // =========================
+  // FACTS
+  // =========================
+
+  {
+    "question": "tell me a fact",
+    "answers": [
+      "Octopuses have three hearts.",
+      "Honey can last for thousands of years without spoiling.",
+      "Bananas are technically berries.",
+      "There are more trees on Earth than stars in the Milky Way.",
+      "Sharks existed before trees."
+    ]
+  },
+  {
+    "question": "tell me something interesting",
+    "answers": [
+      "A day on Venus is longer than a year on Venus.",
+      "Wombats produce cube-shaped poop.",
+      "Water can boil and freeze at the same time under certain conditions.",
+      "The human brain uses about 20 percent of the body's energy.",
+      "There are more possible chess games than atoms in the observable universe."
+    ]
+  },
+  {
+    "question": "tell me something random",
+    "answers": [
+      "Butterflies can remember being caterpillars.",
+      "Scotland has over 400 words for snow.",
+      "Some metals explode in water.",
+      "There are taste receptors in the gut.",
+      "Birds don't urinate."
+    ]
+  },
+  {
+    "question": "tell me a fun fact",
+    "answers": [
+      "Cats sleep about 70 percent of their lives.",
+      "Humans share about 60 percent of their DNA with bananas.",
+      "An eagle's eye is much sharper than a human's.",
+      "The shortest war in history lasted under an hour.",
+      "Some turtles can breathe through their skin."
+    ]
+  },
+  {
+    "question": "give me a fact",
+    "answers": [
+      "A group of flamingos is called a flamboyance.",
+      "The Eiffel Tower can be 15 cm taller during summer.",
+      "Snails can sleep for three years.",
+      "The inventor of the frisbee was turned into a frisbee after death.",
+      "There's a town in Norway called 'Hell'."
+    ]
+  },
+  {
+    "question": "interesting fact",
+    "answers": [
+      "Some cats are allergic to humans.",
+      "The longest wedding veil was longer than 63 football fields.",
+      "A bolt of lightning is five times hotter than the sun.",
+      "Humans are the only animals that blush.",
+      "The total weight of ants on Earth exceeds that of humans."
+    ]
+  },
+  {
+    "question": "science fact",
+    "answers": [
+      "Light takes 8 minutes to travel from the Sun to Earth.",
+      "The human nose can detect over 1 trillion scents.",
+      "There are more atoms in a glass of water than glasses of water in all the oceans.",
+      "DNA unraveled would stretch from Earth to Pluto and back.",
+      "A teaspoon of neutron star would weigh about 10 million tons."
+    ]
+  },
+  {
+    "question": "animal fact",
+    "answers": [
+      "A blue whale's heart is the size of a small car.",
+      "Elephants can't jump.",
+      "Dolphins have names for each other.",
+      "A kangaroo can't hop if its tail is lifted off the ground.",
+      "Polar bears have black skin under their white fur."
+    ]
+  },
+  {
+    "question": "space fact",
+    "answers": [
+      "There is a giant cloud of alcohol in space.",
+      "One day on Mercury lasts 59 Earth days.",
+      "The footsteps on the Moon will remain for millions of years.",
+      "Space is completely silent.",
+      "The Sun makes up 99.86% of the mass in our solar system."
+    ]
+  },
+  {
+    "question": "history fact",
+    "answers": [
+      "Cleopatra lived closer to the Moon landing than to the building of the Great Pyramid.",
+      "The shortest war was 38 minutes long.",
+      "The Titanic's owners never called it 'unsinkable'.",
+      "Napoleon was once attacked by rabbits.",
+      "Albert Einstein was offered the presidency of Israel."
+    ]
+  },
+  {
+    "question": "food fact",
+    "answers": [
+      "Honey never spoils.",
+      "Peanuts are not nuts; they're legumes.",
+      "Strawberries are not berries, but bananas are.",
+      "Carrots were originally purple.",
+      "The world's most expensive pizza costs $12,000."
+    ]
+  },
+  {
+    "question": "technology fact",
+    "answers": [
+      "The first computer mouse was made of wood.",
+      "The first website is still online.",
+      "The first iPhone didn't have copy-paste.",
+      "The 'Ctrl+Alt+Delete' sequence was created by accident.",
+      "There's more computing power in a modern car than in the Apollo 11 spacecraft."
+    ]
+  },
+  {
+    "question": "nature fact",
+    "answers": [
+      "Some plants can grow in shape of Fibonacci sequence.",
+      "A single oak tree can produce 10,000 acorns in a year.",
+      "The Amazon rainforest produces 20% of Earth's oxygen.",
+      "Some mushrooms can break down plastic.",
+      "Bamboo can grow up to 3 feet in 24 hours."
+    ]
+  },
+  {
+    "question": "human body fact",
+    "answers": [
+      "Your stomach acid can dissolve metal.",
+      "Humans share 50% of DNA with trees.",
+      "Your eyes are always the same size from birth.",
+      "The human body has enough iron to make a 3-inch nail.",
+      "You produce about a liter of saliva each day."
+    ]
+  },
+  {
+    "question": "ocean fact",
+    "answers": [
+      "We have explored less than 5% of the ocean.",
+      "The ocean contains 20 million tons of gold.",
+      "The deepest part of the ocean is almost 7 miles deep.",
+      "There are underwater rivers and lakes.",
+      "The longest mountain range is underwater."
+    ]
+  },
+  {
+    "question": "weather fact",
+    "answers": [
+      "Lightning strikes about 6,000 times per minute worldwide.",
+      "Snowflakes falling at 2-4 mph can take up to an hour to reach the ground.",
+      "The driest place on Earth hasn't seen rain in over 2 million years.",
+      "Hail can reach the size of softballs.",
+      "The windiest place on Earth is in Antarctica."
+    ]
+  },
+
+  // =========================
+  // KNOWLEDGE
+  // =========================
+
+  {
+    "question": "what is ai",
+    "answers": [
+      "AI stands for Artificial Intelligence.",
+      "It refers to machines performing tasks that require intelligence.",
+      "AI systems can learn, reason, and make decisions.",
+      "Artificial Intelligence is used in many modern applications.",
+      "It's a broad field covering many technologies."
+    ]
+  },
+  {
+    "question": "what is machine learning",
+    "answers": [
+      "Machine learning is a subset of AI.",
+      "It allows systems to learn from data.",
+      "Models improve performance through experience.",
+      "It focuses on pattern recognition.",
+      "Many modern AI systems rely on machine learning."
+    ]
+  },
+  {
+    "question": "what is the internet",
+    "answers": [
+      "The internet is a global network of computers.",
+      "It connects devices worldwide.",
+      "It allows information exchange.",
+      "Most online services rely on it.",
+      "It's a foundation of modern communication."
+    ]
+  },
+  {
+    "question": "what is the capital of france",
+    "answers": [
+      "Paris.",
+      "The capital of France is Paris.",
+      "Paris is the capital city.",
+      "It's Paris.",
+      "France's capital is Paris."
+    ]
+  },
+  {
+    "question": "what is the capital of japan",
+    "answers": [
+      "Tokyo.",
+      "The capital of Japan is Tokyo.",
+      "Tokyo is Japan's capital.",
+      "It's Tokyo.",
+      "Japan's capital city is Tokyo."
+    ]
+  },
+  {
+    "question": "what is 2 plus 2",
+    "answers": [
+      "4.",
+      "Two plus two equals four.",
+      "The result is four.",
+      "It's 4.",
+      "Four."
+    ]
+  },
+  {
+    "question": "what is blockchain",
+    "answers": [
+      "Blockchain is a distributed ledger technology.",
+      "It stores data in linked blocks.",
+      "It's commonly used in cryptocurrencies.",
+      "It provides tamper-resistant records.",
+      "Transactions are verified across a network."
+    ]
+  },
+  {
+    "question": "what is an api",
+    "answers": [
+      "API stands for Application Programming Interface.",
+      "It allows systems to communicate.",
+      "APIs define how requests and responses work.",
+      "They are used in most software products.",
+      "Many web services expose APIs."
+    ]
+  },
+  {
+    "question": "what is programming",
+    "answers": [
+      "Programming is writing instructions for computers.",
+      "It involves creating software and applications.",
+      "Programs tell computers what to do.",
+      "It's problem-solving with code.",
+      "Programming enables all digital technology."
+    ]
+  },
+  {
+    "question": "what is python",
+    "answers": [
+      "Python is a popular programming language.",
+      "It's known for its readability.",
+      "Python is used in web development, data science, and AI.",
+      "It has a large community and many libraries.",
+      "Python emphasizes code readability."
+    ]
+  },
+  {
+    "question": "what is javascript",
+    "answers": [
+      "JavaScript is a programming language for the web.",
+      "It makes web pages interactive.",
+      "It runs in web browsers.",
+      "JavaScript is essential for modern web development.",
+      "It's not related to Java programming language."
+    ]
+  },
+  {
+    "question": "what is html",
+    "answers": [
+      "HTML stands for HyperText Markup Language.",
+      "It structures web page content.",
+      "HTML uses tags to define elements.",
+      "It's the skeleton of web pages.",
+      "All websites use HTML."
+    ]
+  },
+  {
+    "question": "what is css",
+    "answers": [
+      "CSS stands for Cascading Style Sheets.",
+      "It styles HTML elements.",
+      "CSS controls colors, layouts, and fonts.",
+      "It makes websites visually appealing.",
+      "CSS separates content from presentation."
+    ]
+  },
+  {
+    "question": "what is cloud computing",
+    "answers": [
+      "Cloud computing delivers services over the internet.",
+      "It provides storage, processing, and software remotely.",
+      "Users access resources without owning infrastructure.",
+      "It's scalable and often pay-as-you-go.",
+      "Many companies use cloud services."
+    ]
+  },
+  {
+    "question": "what is big data",
+    "answers": [
+      "Big data refers to extremely large datasets.",
+      "It involves data too big for traditional processing.",
+      "Big data requires special tools and techniques.",
+      "It's analyzed for patterns and insights.",
+      "Used in business, science, and research."
+    ]
+  },
+  {
+    "question": "what is cybersecurity",
+    "answers": [
+      "Cybersecurity protects digital systems and data.",
+      "It prevents unauthorized access and attacks.",
+      "Includes networks, computers, and programs.",
+      "Essential in our connected world.",
+      "Involves both technology and practices."
+    ]
+  },
+  {
+    "question": "what is iot",
+    "answers": [
+      "IoT stands for Internet of Things.",
+      "It connects everyday objects to the internet.",
+      "Devices can collect and exchange data.",
+      "Includes smart home devices and wearables.",
+      "Creates interconnected physical systems."
+    ]
+  },
+  {
+    "question": "what is vr",
+    "answers": [
+      "VR stands for Virtual Reality.",
+      "It creates simulated environments.",
+      "Users experience immersion through headsets.",
+      "Used in gaming, training, and entertainment.",
+      "Simulates presence in digital worlds."
+    ]
+  },
+  {
+    "question": "what is ar",
+    "answers": [
+      "AR stands for Augmented Reality.",
+      "It overlays digital content on the real world.",
+      "Enhances reality with computer-generated elements.",
+      "Used in apps, games, and navigation.",
+      "Seen through smartphones or special glasses."
+    ]
+  },
+  {
+    "question": "what is 5g",
+    "answers": [
+      "5G is the fifth generation of mobile networks.",
+      "It offers faster speeds and lower latency.",
+      "Enables new applications like autonomous vehicles.",
+      "More reliable than previous generations.",
+      "Supports more connected devices."
+    ]
+  },
+  {
+    "question": "what is cryptocurrency",
+    "answers": [
+      "Cryptocurrency is digital currency using cryptography.",
+      "It operates on decentralized networks.",
+      "Bitcoin was the first cryptocurrency.",
+      "Uses blockchain technology.",
+      "Not controlled by central authorities."
+    ]
+  },
+  {
+    "question": "what is bitcoin",
+    "answers": [
+      "Bitcoin is the first cryptocurrency.",
+      "Created by Satoshi Nakamoto in 2009.",
+      "Operates on a decentralized network.",
+      "Limited to 21 million coins.",
+      "Uses blockchain technology."
+    ]
+  },
+  {
+    "question": "what is nft",
+    "answers": [
+      "NFT stands for Non-Fungible Token.",
+      "Represents unique digital items.",
+      "Uses blockchain to prove ownership.",
+      "Can be art, music, or other digital assets.",
+      "Each NFT is one-of-a-kind."
+    ]
+  },
+  {
+    "question": "what is metaverse",
+    "answers": [
+      "Metaverse is a collective virtual shared space.",
+      "Combines virtual reality and augmented reality.",
+      "Users interact through avatars.",
+      "Seen as the next evolution of the internet.",
+      "Includes social, gaming, and work spaces."
+    ]
+  },
+  {
+    "question": "what is quantum computing",
+    "answers": [
+      "Quantum computing uses quantum mechanics principles.",
+      "Uses qubits instead of traditional bits.",
+      "Can solve complex problems faster.",
+      "Still in early development stages.",
+      "Has potential for breakthroughs in many fields."
+    ]
+  },
+  {
+    "question": "what is robotics",
+    "answers": [
+      "Robotics involves designing and building robots.",
+      "Combines mechanical, electrical, and software engineering.",
+      "Robots perform tasks autonomously or semi-autonomously.",
+      "Used in manufacturing, medicine, and exploration.",
+      "Includes AI for intelligent behavior."
+    ]
+  },
+  {
+    "question": "what is deep learning",
+    "answers": [
+      "Deep learning is a subset of machine learning.",
+      "Uses neural networks with many layers.",
+      "Excels at pattern recognition in complex data.",
+      "Used in image and speech recognition.",
+      "Requires large amounts of data and computing power."
+    ]
+  },
+  {
+    "question": "what is neural network",
+    "answers": [
+      "Neural networks mimic the human brain structure.",
+      "Consist of interconnected nodes (neurons).",
+      "Learn from data through training.",
+      "Used in pattern recognition and prediction.",
+      "Foundation of many AI systems."
+    ]
+  },
+
+  // =========================
+  // GEOGRAPHY
+  // =========================
+
+  {
+    "question": "what is the capital of germany",
+    "answers": [
+      "Berlin.",
+      "The capital of Germany is Berlin.",
+      "Berlin is Germany's capital.",
+      "It's Berlin.",
+      "Germany's capital city is Berlin."
+    ]
+  },
+  {
+    "question": "what is the capital of italy",
+    "answers": [
+      "Rome.",
+      "The capital of Italy is Rome.",
+      "Rome is Italy's capital.",
+      "It's Rome.",
+      "Italy's capital city is Rome."
+    ]
+  },
+  {
+    "question": "what is the capital of spain",
+    "answers": [
+      "Madrid.",
+      "The capital of Spain is Madrid.",
+      "Madrid is Spain's capital.",
+      "It's Madrid.",
+      "Spain's capital city is Madrid."
+    ]
+  },
+  {
+    "question": "what is the capital of russia",
+    "answers": [
+      "Moscow.",
+      "The capital of Russia is Moscow.",
+      "Moscow is Russia's capital.",
+      "It's Moscow.",
+      "Russia's capital city is Moscow."
+    ]
+  },
+  {
+    "question": "what is the capital of china",
+    "answers": [
+      "Beijing.",
+      "The capital of China is Beijing.",
+      "Beijing is China's capital.",
+      "It's Beijing.",
+      "China's capital city is Beijing."
+    ]
+  },
+  {
+    "question": "what is the capital of india",
+    "answers": [
+      "New Delhi.",
+      "The capital of India is New Delhi.",
+      "New Delhi is India's capital.",
+      "It's New Delhi.",
+      "India's capital city is New Delhi."
+    ]
+  },
+  {
+    "question": "what is the capital of australia",
+    "answers": [
+      "Canberra.",
+      "The capital of Australia is Canberra.",
+      "Canberra is Australia's capital.",
+      "It's Canberra.",
+      "Australia's capital city is Canberra."
+    ]
+  },
+  {
+    "question": "what is the capital of canada",
+    "answers": [
+      "Ottawa.",
+      "The capital of Canada is Ottawa.",
+      "Ottawa is Canada's capital.",
+      "It's Ottawa.",
+      "Canada's capital city is Ottawa."
+    ]
+  },
+  {
+    "question": "what is the capital of brazil",
+    "answers": [
+      "Bras'lia.",
+      "The capital of Brazil is Brasilia.",
+      "Brasilia is Brazil's capital.",
+      "It's Brasilia.",
+      "Brazil's capital city is Brasilia."
+    ]
+  },
+  {
+    "question": "what is the largest country",
+    "answers": [
+      "Russia is the largest country.",
+      "Russia has the most land area.",
+      "By area, Russia is biggest.",
+      "Russia is largest by territory.",
+      "The largest country is Russia."
+    ]
+  },
+  {
+    "question": "what is the smallest country",
+    "answers": [
+      "Vatican City is the smallest country.",
+      "Vatican City has the smallest area.",
+      "The smallest is Vatican City.",
+      "Vatican City is the tiniest country.",
+      "Smallest country: Vatican City."
+    ]
+  },
+  {
+    "question": "what is the longest river",
+    "answers": [
+      "The Nile is the longest river.",
+      "Nile River is the longest.",
+      "Longest river: Nile.",
+      "The Nile in Africa is longest.",
+      "Nile is the world's longest river."
+    ]
+  },
+  {
+    "question": "what is the highest mountain",
+    "answers": [
+      "Mount Everest is the highest mountain.",
+      "Everest is the tallest peak.",
+      "Highest mountain: Mount Everest.",
+      "Mount Everest in the Himalayas.",
+      "Everest is the world's highest."
+    ]
+  },
+  {
+    "question": "what is the largest ocean",
+    "answers": [
+      "The Pacific Ocean is largest.",
+      "Pacific is the biggest ocean.",
+      "Largest ocean: Pacific.",
+      "Pacific Ocean has most area.",
+      "The Pacific is the largest ocean."
+    ]
+  },
+  {
+    "question": "what is the largest desert",
+    "answers": [
+      "Antarctica is the largest desert.",
+      "Antarctic Desert is biggest.",
+      "Largest desert: Antarctica.",
+      "Antarctica is the biggest desert.",
+      "The Antarctic is the largest desert."
+    ]
+  },
+
+  // =========================
+  // MATH
+  // =========================
+
+  {
+    "question": "what is 5 times 5",
+    "answers": [
+      "25.",
+      "Five times five equals twenty-five.",
+      "The result is twenty-five.",
+      "It's 25.",
+      "Twenty-five."
+    ]
+  },
+  {
+    "question": "what is 10 divided by 2",
+    "answers": [
+      "5.",
+      "Ten divided by two equals five.",
+      "The result is five.",
+      "It's 5.",
+      "Five."
+    ]
+  },
+  {
+    "question": "what is 100 minus 25",
+    "answers": [
+      "75.",
+      "One hundred minus twenty-five equals seventy-five.",
+      "The result is seventy-five.",
+      "It's 75.",
+      "Seventy-five."
+    ]
+  },
+  {
+    "question": "what is 15 plus 30",
+    "answers": [
+      "45.",
+      "Fifteen plus thirty equals forty-five.",
+      "The result is forty-five.",
+      "It's 45.",
+      "Forty-five."
+    ]
+  },
+  {
+    "question": "what is pi",
+    "answers": [
+      "Pi is approximately 3.14159.",
+      "Pi is the ratio of circumference to diameter.",
+      "It's an irrational number.",
+      "Pi is about 3.14.",
+      "Commonly rounded to 3.1416."
+    ]
+  },
+  {
+    "question": "what is square root of 16",
+    "answers": [
+      "4.",
+      "Square root of sixteen is four.",
+      "The result is four.",
+      "It's 4.",
+      "Four."
+    ]
+  },
+  {
+    "question": "what is 3 squared",
+    "answers": [
+      "9.",
+      "Three squared equals nine.",
+      "The result is nine.",
+      "It's 9.",
+      "Nine."
+    ]
+  },
+  {
+    "question": "what is 2 to the power of 3",
+    "answers": [
+      "8.",
+      "Two to the third power equals eight.",
+      "The result is eight.",
+      "It's 8.",
+      "Eight."
+    ]
+  },
+  {
+    "question": "what is prime number",
+    "answers": [
+      "Prime numbers have exactly two divisors.",
+      "Only divisible by 1 and themselves.",
+      "Examples: 2, 3, 5, 7, 11.",
+      "Numbers greater than 1 with no positive divisors other than 1 and themselves.",
+      "Fundamental in number theory."
+    ]
+  },
+  {
+    "question": "what is fibonacci sequence",
+    "answers": [
+      "Each number is sum of two preceding ones.",
+      "Starts with 0 and 1.",
+      "Sequence: 0, 1, 1, 2, 3, 5, 8...",
+      "Appears in nature patterns.",
+      "Named after Leonardo Fibonacci."
+    ]
+  },
+
+  // =========================
+  // SCIENCE
+  // =========================
+
+  {
+    "question": "what is gravity",
+    "answers": [
+      "Gravity is the force that attracts objects.",
+      "It gives weight to physical objects.",
+      "Discovered by Isaac Newton.",
+      "Keeps planets in orbit.",
+      "Weaker than other fundamental forces."
+    ]
+  },
+  {
+    "question": "what is photosynthesis",
+    "answers": [
+      "Plants convert light to chemical energy.",
+      "Uses sunlight, water, and carbon dioxide.",
+      "Produces oxygen and glucose.",
+      "Essential for life on Earth.",
+      "Occurs in chloroplasts."
+    ]
+  },
+  {
+    "question": "what is dna",
+    "answers": [
+      "DNA carries genetic instructions.",
+      "Stands for Deoxyribonucleic Acid.",
+      "Double helix structure.",
+      "Contains genes.",
+      "Found in all living organisms."
+    ]
+  },
+  {
+    "question": "what is evolution",
+    "answers": [
+      "Species change over generations.",
+      "Proposed by Charles Darwin.",
+      "Driven by natural selection.",
+      "Explains biodiversity.",
+      "Genetic changes accumulate over time."
+    ]
+  },
+  {
+    "question": "what is atom",
+    "answers": [
+      "Basic unit of matter.",
+      "Consists of protons, neutrons, electrons.",
+      "Extremely small.",
+      "Makes up all elements.",
+      "Nucleus surrounded by electrons."
+    ]
+  },
+  {
+    "question": "what is chemical reaction",
+    "answers": [
+      "Atoms rearrange to form new substances.",
+      "Bonds break and form.",
+      "Can release or absorb energy.",
+      "Changes chemical properties.",
+      "Examples: combustion, rusting."
+    ]
+  },
+  {
+    "question": "what is periodic table",
+    "answers": [
+      "Organizes chemical elements.",
+      "Arranged by atomic number.",
+      "Created by Dmitri Mendeleev.",
+      "Shows trends and properties.",
+      "118 confirmed elements."
+    ]
+  },
+  {
+    "question": "what is electricity",
+    "answers": [
+      "Flow of electric charge.",
+      "Can be static or current.",
+      "Measured in volts and amps.",
+      "Fundamental to modern technology.",
+      "Electrons moving through conductors."
+    ]
+  },
+  {
+    "question": "what is magnetism",
+    "answers": [
+      "Force exerted by magnets.",
+      "Has north and south poles.",
+      "Like poles repel, opposite attract.",
+      "Earth has magnetic field.",
+      "Used in motors and generators."
+    ]
+  },
+  {
+    "question": "what is light",
+    "answers": [
+      "Electromagnetic radiation visible to humans.",
+      "Travels as waves and particles.",
+      "Speed: 299,792 km/s in vacuum.",
+      "Exhibits reflection and refraction.",
+      "Different colors have different wavelengths."
+    ]
+  },
+
+  // =========================
+  // CULTURE & ENTERTAINMENT
+  // =========================
+
+  {
+    "question": "what is music",
+    "answers": [
+      "Art form using sound and silence.",
+      "Organized in time.",
+      "Includes melody, harmony, rhythm.",
+      "Cultural universal.",
+      "Expresses emotion and ideas."
+    ]
+  },
+  {
+    "question": "what is art",
+    "answers": [
+      "Expression of human creativity.",
+      "Includes visual, performing, literary forms.",
+      "Subjective and cultural.",
+      "Communicates ideas and emotions.",
+      "Has many styles and movements."
+    ]
+  },
+  {
+    "question": "what is movie",
+    "answers": [
+      "Moving pictures with sound.",
+      "Also called film or cinema.",
+      "Tells stories visually.",
+      "Combines many art forms.",
+      "Mass entertainment medium."
+    ]
+  },
+  {
+    "question": "what is book",
+    "answers": [
+      "Collection of written pages.",
+      "Can be fiction or non-fiction.",
+      "Preserves and transmits knowledge.",
+      "One of oldest information technologies.",
+      "Available in print and digital."
+    ]
+  },
+  {
+    "question": "what is game",
+    "answers": [
+      "Structured form of play.",
+      "Can be competitive or cooperative.",
+      "Includes rules and goals.",
+      "Provides entertainment.",
+      "Digital games are very popular."
+    ]
+  },
+  {
+    "question": "what is sport",
+    "answers": [
+      "Physical activity with rules.",
+      "Often competitive.",
+      "Promotes health and teamwork.",
+      "Watched as entertainment.",
+      "Many different types worldwide."
+    ]
+  },
+  {
+    "question": "what is literature",
+    "answers": [
+      "Written artistic works.",
+      "Includes novels, poetry, drama.",
+      "Preserves culture and ideas.",
+      "Studies human experience.",
+      "Can be fiction or non-fiction."
+    ]
+  },
+  {
+    "question": "what is theater",
+    "answers": [
+      "Live performance before audience.",
+      "Combines acting, speech, gesture.",
+      "One of oldest art forms.",
+      "Includes plays and musicals.",
+      "Collaborative art form."
+    ]
+  },
+
+  // =========================
+  // PHILOSOPHY & THINKING
+  // =========================
+
+  {
+    "question": "what is philosophy",
+    "answers": [
+      "Study of fundamental questions.",
+      "Explores existence, knowledge, values.",
+      "Uses reason and argument.",
+      "Ancient Greek origins.",
+      "Includes ethics, logic, metaphysics."
+    ]
+  },
+  {
+    "question": "what is happiness",
+    "answers": [
+      "State of well-being and contentment.",
+      "Subjective experience.",
+      "Pursued by all humans.",
+      "Different for each person.",
+      "Studied in psychology and philosophy."
+    ]
+  },
+  {
+    "question": "what is love",
+    "answers": [
+      "Complex set of emotions.",
+      "Includes care, affection, attachment.",
+      "Fundamental human experience.",
+      "Takes many forms.",
+      "Inspires art and literature."
+    ]
+  },
+  {
+    "question": "what is time",
+    "answers": [
+      "Continuous sequence of events.",
+      "Measured by clocks.",
+      "Fourth dimension in physics.",
+      "Perceived differently by individuals.",
+      "Fundamental to human experience."
+    ]
+  },
+  {
+    "question": "what is truth",
+    "answers": [
+      "Correspondence to reality.",
+      "Subject of philosophy.",
+      "Can be absolute or relative.",
+      "Sought in science and law.",
+      "Different theories exist."
+    ]
+  },
+  {
+    "question": "what is freedom",
+    "answers": [
+      "Ability to act without constraint.",
+      "Valued in many societies.",
+      "Includes political and personal forms.",
+      "Balanced with responsibility.",
+      "Fundamental human right."
+    ]
+  },
+  {
+    "question": "what is justice",
+    "answers": [
+      "Fair treatment according to law.",
+      "Moral rightness.",
+      "Balances rights and punishments.",
+      "Goal of legal systems.",
+      "Concept varies across cultures."
+    ]
+  },
+  {
+    "question": "what is beauty",
+    "answers": [
+      "Quality that pleases the senses.",
+      "Subjective perception.",
+      "Studied in aesthetics.",
+      "Cultural standards vary.",
+      "Found in nature and art."
+    ]
+  },
+
+  // =========================
+  // BUSINESS & ECONOMICS
+  // =========================
+
+  {
+    "question": "what is business",
+    "answers": [
+      "Organization providing goods or services.",
+      "Aims to make profit.",
+      "Includes many types and sizes.",
+      "Drives economic activity.",
+      "Creates jobs and innovation."
+    ]
+  },
+  {
+    "question": "what is money",
+    "answers": [
+      "Medium of exchange.",
+      "Store of value.",
+      "Unit of account.",
+      "Can be physical or digital.",
+      "Facilitates trade and commerce."
+    ]
+  },
+  {
+    "question": "what is investment",
+    "answers": [
+      "Allocating resources for future benefit.",
+      "Can be financial or physical.",
+      "Involves risk and return.",
+      "Builds wealth over time.",
+      "Includes stocks, bonds, real estate."
+    ]
+  },
+  {
+    "question": "what is marketing",
+    "answers": [
+      "Promoting products or services.",
+      "Connects businesses with customers.",
+      "Includes advertising and research.",
+      "Builds brand awareness.",
+      "Uses various channels and strategies."
+    ]
+  },
+  {
+    "question": "what is entrepreneurship",
+    "answers": [
+      "Creating and running a business.",
+      "Involves innovation and risk-taking.",
+      "Drives economic growth.",
+      "Solves problems through business.",
+      "Requires vision and perseverance."
+    ]
+  },
+  {
+    "question": "what is economics",
+    "answers": [
+      "Study of production and consumption.",
+      "Analyzes how societies allocate resources.",
+      "Includes micro and macro branches.",
+      "Guides policy decisions.",
+      "Studies markets and behavior."
+    ]
+  },
+
+  // =========================
+  // HEALTH & WELLNESS
+  // =========================
+
+  {
+    "question": "what is health",
+    "answers": [
+      "State of complete physical and mental well-being.",
+      "Not merely absence of disease.",
+      "Includes fitness and nutrition.",
+      "Fundamental human right.",
+      "Affected by lifestyle and environment."
+    ]
+  },
+  {
+    "question": "what is exercise",
+    "answers": [
+      "Physical activity for fitness.",
+      "Improves health and well-being.",
+      "Includes cardio and strength training.",
+      "Reduces disease risk.",
+      "Boosts mood and energy."
+    ]
+  },
+  {
+    "question": "what is nutrition",
+    "answers": [
+      "Study of food and health.",
+      "Provides energy and nutrients.",
+      "Balanced diet promotes health.",
+      "Includes vitamins and minerals.",
+      "Affects growth and disease prevention."
+    ]
+  },
+  {
+    "question": "what is sleep",
+    "answers": [
+      "Natural state of rest.",
+      "Essential for health.",
+      "Allows body and mind to recover.",
+      "Adults need 7-9 hours nightly.",
+      "Affects memory and mood."
+    ]
+  },
+  {
+    "question": "what is meditation",
+    "answers": [
+      "Practice of focused attention.",
+      "Promotes relaxation and awareness.",
+      "Reduces stress and anxiety.",
+      "Has many forms and techniques.",
+      "Improves mental clarity."
+    ]
+  },
+
+  // =========================
+  // EVERYDAY LIFE
+  // =========================
+
+  {
+    "question": "what is cooking",
+    "answers": [
+      "Preparing food for eating.",
+      "Combines ingredients and heat.",
+      "Art and science.",
+      "Cultural tradition.",
+      "Can be simple or complex."
+    ]
+  },
+  {
+    "question": "what is travel",
+    "answers": [
+      "Moving between geographical locations.",
+      "For pleasure, business, or other reasons.",
+      "Broadens perspectives.",
+      "Includes various modes of transport.",
+      "Creates memories and experiences."
+    ]
+  },
+  {
+    "question": "what is shopping",
+    "answers": [
+      "Purchasing goods or services.",
+      "Can be in-store or online.",
+      "Economic activity.",
+      "For needs or wants.",
+      "Includes comparison and selection."
+    ]
+  },
+  {
+    "question": "what is friendship",
+    "answers": [
+      "Mutual affection between people.",
+      "Voluntary relationship.",
+      "Provides support and companionship.",
+      "Important for well-being.",
+      "Can last a lifetime."
+    ]
+  },
+  {
+    "question": "what is family",
+    "answers": [
+      "Group related by blood, marriage, or adoption.",
+      "Basic social unit.",
+      "Provides care and support.",
+      "Structure varies across cultures.",
+      "Foundation of society."
+    ]
+  }
+]

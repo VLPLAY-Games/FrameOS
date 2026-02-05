@@ -1,0 +1,2270 @@
+﻿[
+  {
+    "canonical": "hello",
+    "synonyms": [ "hi", "hey", "hiya", "yo", "greetings", "sup", "howdy" ]
+  },
+  {
+    "canonical": "goodbye",
+    "synonyms": [ "bye", "see you", "see ya", "farewell", "later", "cheers" ]
+  },
+  {
+    "canonical": "thanks",
+    "synonyms": [ "thank you", "thx", "ty", "much appreciated", "thanks a lot" ]
+  },
+  {
+    "canonical": "please",
+    "synonyms": [ "kindly", "if you please", "pls" ]
+  },
+  {
+    "canonical": "sorry",
+    "synonyms": [ "apologies", "my apologies", "pardon", "excuse me" ]
+  },
+  {
+    "canonical": "yes",
+    "synonyms": [ "yep", "yeah", "sure", "affirmative", "yup", "certainly", "indeed" ]
+  },
+  {
+    "canonical": "no",
+    "synonyms": [ "nope", "nah", "negative", "not at all" ]
+  },
+  {
+    "canonical": "maybe",
+    "synonyms": [ "perhaps", "possibly", "could be", "might be" ]
+  },
+  {
+    "canonical": "help",
+    "synonyms": [ "assist", "support", "aid", "lend a hand", "give a hand" ]
+  },
+  {
+    "canonical": "problem",
+    "synonyms": [ "issue", "bug", "trouble", "difficulty", "glitch" ]
+  },
+  {
+    "canonical": "error",
+    "synonyms": [ "fault", "mistake", "failure", "exception" ]
+  },
+  {
+    "canonical": "question",
+    "synonyms": [ "query", "inquiry", "ask", "what is", "how to" ]
+  },
+  {
+    "canonical": "answer",
+    "synonyms": [ "response", "reply", "solution", "result" ]
+  },
+  {
+    "canonical": "search",
+    "synonyms": [ "find", "lookup", "query", "look up", "seek" ]
+  },
+  {
+    "canonical": "open",
+    "synonyms": [ "launch", "start", "run", "execute" ]
+  },
+  {
+    "canonical": "close",
+    "synonyms": [ "shutdown", "end", "quit", "exit", "terminate" ]
+  },
+  {
+    "canonical": "save",
+    "synonyms": [ "store", "persist", "write", "record" ]
+  },
+  {
+    "canonical": "delete",
+    "synonyms": [ "remove", "erase", "destroy", "drop", "rm" ]
+  },
+  {
+    "canonical": "update",
+    "synonyms": [ "upgrade", "refresh", "patch", "modify", "change" ]
+  },
+  {
+    "canonical": "install",
+    "synonyms": [ "setup", "set up", "put in", "deploy", "provision" ]
+  },
+  {
+    "canonical": "configure",
+    "synonyms": [ "setup", "adjust", "tune", "customize" ]
+  },
+  {
+    "canonical": "connect",
+    "synonyms": [ "link", "join", "attach", "hook up", "pair" ]
+  },
+  {
+    "canonical": "disconnect",
+    "synonyms": [ "unlink", "detach", "unplug", "drop", "disconnect from" ]
+  },
+  {
+    "canonical": "login",
+    "synonyms": [ "log in", "sign in", "signin", "authenticate" ]
+  },
+  {
+    "canonical": "logout",
+    "synonyms": [ "log out", "sign out", "signoff", "sign off" ]
+  },
+  {
+    "canonical": "account",
+    "synonyms": [ "profile", "user", "user account", "acct" ]
+  },
+  {
+    "canonical": "password",
+    "synonyms": [ "pass", "pwd", "pin", "credential" ]
+  },
+  {
+    "canonical": "email",
+    "synonyms": [ "e-mail", "mail", "address", "email address" ]
+  },
+  {
+    "canonical": "message",
+    "synonyms": [ "msg", "text", "sms", "notification" ]
+  },
+  {
+    "canonical": "profile",
+    "synonyms": [ "account", "user profile", "bio", "about me" ]
+  },
+  {
+    "canonical": "settings",
+    "synonyms": [ "preferences", "options", "configuration", "controls" ]
+  },
+  {
+    "canonical": "language",
+    "synonyms": [ "lang", "locale", "tongue" ]
+  },
+  {
+    "canonical": "translate",
+    "synonyms": [ "interpret", "convert", "render", "translation" ]
+  },
+  {
+    "canonical": "weather",
+    "synonyms": [ "forecast", "climate", "conditions", "temperature" ]
+  },
+  {
+    "canonical": "time",
+    "synonyms": [ "clock", "hour", "what's the time", "current time" ]
+  },
+  {
+    "canonical": "date",
+    "synonyms": [ "day", "calendar", "when" ]
+  },
+  {
+    "canonical": "today",
+    "synonyms": [ "this day", "now", "current day" ]
+  },
+  {
+    "canonical": "tomorrow",
+    "synonyms": [ "next day", "the next day" ]
+  },
+  {
+    "canonical": "yesterday",
+    "synonyms": [ "previous day", "the day before" ]
+  },
+  {
+    "canonical": "morning",
+    "synonyms": [ "am", "forenoon", "sunrise time" ]
+  },
+  {
+    "canonical": "afternoon",
+    "synonyms": [ "pm", "post noon" ]
+  },
+  {
+    "canonical": "evening",
+    "synonyms": [ "nightfall", "dusk" ]
+  },
+  {
+    "canonical": "night",
+    "synonyms": [ "late", "midnight", "overnight" ]
+  },
+  {
+    "canonical": "breakfast",
+    "synonyms": [ "morning meal", "first meal" ]
+  },
+  {
+    "canonical": "lunch",
+    "synonyms": [ "noon meal", "midday meal" ]
+  },
+  {
+    "canonical": "dinner",
+    "synonyms": [ "supper", "evening meal" ]
+  },
+  {
+    "canonical": "food",
+    "synonyms": [ "meal", "cuisine", "dish", "fare" ]
+  },
+  {
+    "canonical": "drink",
+    "synonyms": [ "beverage", "refreshment", "sip" ]
+  },
+  {
+    "canonical": "coffee",
+    "synonyms": [ "java", "espresso", "brew" ]
+  },
+  {
+    "canonical": "tea",
+    "synonyms": [ "chai", "green tea", "black tea" ]
+  },
+  {
+    "canonical": "water",
+    "synonyms": [ "h2o", "aqua", "drink water" ]
+  },
+  {
+    "canonical": "restaurant",
+    "synonyms": [ "eatery", "diner", "cafe", "bistro" ]
+  },
+  {
+    "canonical": "recipe",
+    "synonyms": [ "cookbook", "instructions", "how to cook" ]
+  },
+  {
+    "canonical": "travel",
+    "synonyms": [ "trip", "journey", "voyage", "traveling" ]
+  },
+  {
+    "canonical": "flight",
+    "synonyms": [ "airplane", "air travel", "plane", "airline" ]
+  },
+  {
+    "canonical": "hotel",
+    "synonyms": [ "lodging", "inn", "motel", "accommodation" ]
+  },
+  {
+    "canonical": "car",
+    "synonyms": [ "automobile", "vehicle", "auto", "ride" ]
+  },
+  {
+    "canonical": "taxi",
+    "synonyms": [ "cab", "uber", "lyft", "ride share" ]
+  },
+  {
+    "canonical": "bus",
+    "synonyms": [ "coach", "public transport", "transit" ]
+  },
+  {
+    "canonical": "train",
+    "synonyms": [ "rail", "railway", "locomotive" ]
+  },
+  {
+    "canonical": "map",
+    "synonyms": [ "directions", "route", "chart", "atlas" ]
+  },
+  {
+    "canonical": "direction",
+    "synonyms": [ "route", "way", "heading", "bearing" ]
+  },
+  {
+    "canonical": "left",
+    "synonyms": [ "port", "to the left" ]
+  },
+  {
+    "canonical": "right",
+    "synonyms": [ "starboard", "to the right" ]
+  },
+  {
+    "canonical": "north",
+    "synonyms": [ "n", "up", "towards north" ]
+  },
+  {
+    "canonical": "south",
+    "synonyms": [ "s", "down", "towards south" ]
+  },
+  {
+    "canonical": "east",
+    "synonyms": [ "e", "towards east" ]
+  },
+  {
+    "canonical": "west",
+    "synonyms": [ "w", "towards west" ]
+  },
+  {
+    "canonical": "near",
+    "synonyms": [ "close", "nearby", "proximate", "within reach" ]
+  },
+  {
+    "canonical": "far",
+    "synonyms": [ "distant", "remote", "away" ]
+  },
+  {
+    "canonical": "price",
+    "synonyms": [ "cost", "fee", "charge", "amount" ]
+  },
+  {
+    "canonical": "cheap",
+    "synonyms": [ "inexpensive", "low-cost", "budget" ]
+  },
+  {
+    "canonical": "expensive",
+    "synonyms": [ "costly", "pricey", "high-priced" ]
+  },
+  {
+    "canonical": "buy",
+    "synonyms": [ "purchase", "order", "acquire", "get" ]
+  },
+  {
+    "canonical": "sell",
+    "synonyms": [ "vend", "offer for sale", "market" ]
+  },
+  {
+    "canonical": "shop",
+    "synonyms": [ "store", "retail", "buying", "shopping" ]
+  },
+  {
+    "canonical": "online",
+    "synonyms": [ "on the internet", "web", "internet-based" ]
+  },
+  {
+    "canonical": "offline",
+    "synonyms": [ "not online", "disconnected" ]
+  },
+  {
+    "canonical": "download",
+    "synonyms": [ "get", "fetch", "retrieve", "save locally" ]
+  },
+  {
+    "canonical": "upload",
+    "synonyms": [ "send", "post", "transfer", "put online" ]
+  },
+  {
+    "canonical": "file",
+    "synonyms": [ "document", "record", "doc", "file item" ]
+  },
+  {
+    "canonical": "folder",
+    "synonyms": [ "directory", "catalog", "container" ]
+  },
+  {
+    "canonical": "copy",
+    "synonyms": [ "duplicate", "replicate", "clone" ]
+  },
+  {
+    "canonical": "paste",
+    "synonyms": [ "insert", "put", "place" ]
+  },
+  {
+    "canonical": "cut",
+    "synonyms": [ "remove", "slice", "trim" ]
+  },
+  {
+    "canonical": "print",
+    "synonyms": [ "produce a hard copy", "send to printer" ]
+  },
+  {
+    "canonical": "share",
+    "synonyms": [ "distribute", "send", "publish", "post" ]
+  },
+  {
+    "canonical": "link",
+    "synonyms": [ "url", "hyperlink", "connection", "reference" ]
+  },
+  {
+    "canonical": "website",
+    "synonyms": [ "site", "webpage", "page", "online site" ]
+  },
+  {
+    "canonical": "browser",
+    "synonyms": [ "web browser", "chrome", "firefox", "safari" ]
+  },
+  {
+    "canonical": "app",
+    "synonyms": [ "application", "software", "mobile app", "program" ]
+  },
+  {
+    "canonical": "software",
+    "synonyms": [ "program", "application", "app", "package" ]
+  },
+  {
+    "canonical": "hardware",
+    "synonyms": [ "device", "equipment", "machine" ]
+  },
+  {
+    "canonical": "device",
+    "synonyms": [ "gadget", "unit", "appliance", "hardware" ]
+  },
+  {
+    "canonical": "phone",
+    "synonyms": [ "mobile", "cell", "smartphone", "telephone" ]
+  },
+  {
+    "canonical": "computer",
+    "synonyms": [ "pc", "desktop", "laptop", "workstation" ]
+  },
+  {
+    "canonical": "laptop",
+    "synonyms": [ "notebook", "portable computer" ]
+  },
+  {
+    "canonical": "tablet",
+    "synonyms": [ "ipad", "slate", "tablet pc" ]
+  },
+  {
+    "canonical": "camera",
+    "synonyms": [ "photo camera", "video camera", "cam", "photo device", "video recorder" ]
+  },
+  {
+    "canonical": "battery",
+    "synonyms": [ "power cell", "accumulator", "batt" ]
+  },
+  {
+    "canonical": "screen",
+    "synonyms": [ "display", "monitor", "lcd", "led" ]
+  },
+  {
+    "canonical": "keyboard",
+    "synonyms": [ "kb", "typeboard", "keypad" ]
+  },
+  {
+    "canonical": "mouse",
+    "synonyms": [ "pointer", "trackpad alternative" ]
+  },
+  {
+    "canonical": "speaker",
+    "synonyms": [ "audio output", "loudspeaker", "sound system" ]
+  },
+  {
+    "canonical": "microphone",
+    "synonyms": [ "mic", "audio input" ]
+  },
+  {
+    "canonical": "network",
+    "synonyms": [ "net", "connectivity", "internet", "lan", "wan" ]
+  },
+  {
+    "canonical": "wifi",
+    "synonyms": [ "wi-fi", "wireless", "wireless network" ]
+  },
+  {
+    "canonical": "bluetooth",
+    "synonyms": [ "bt", "wireless short-range" ]
+  },
+  {
+    "canonical": "signal",
+    "synonyms": [ "reception", "strength", "coverage" ]
+  },
+  {
+    "canonical": "bandwidth",
+    "synonyms": [ "throughput", "capacity", "data rate" ]
+  },
+  {
+    "canonical": "speed",
+    "synonyms": [ "velocity", "rate", "pace" ]
+  },
+  {
+    "canonical": "slow",
+    "synonyms": [ "sluggish", "laggy", "low speed" ]
+  },
+  {
+    "canonical": "fast",
+    "synonyms": [ "quick", "rapid", "high speed" ]
+  },
+  {
+    "canonical": "memory",
+    "synonyms": [ "ram", "storage", "volatile memory" ]
+  },
+  {
+    "canonical": "storage",
+    "synonyms": [ "disk", "ssd", "hdd", "drive", "space" ]
+  },
+  {
+    "canonical": "backup",
+    "synonyms": [ "copy", "archive", "save copy", "replicate" ]
+  },
+  {
+    "canonical": "restore",
+    "synonyms": [ "recover", "retrieve", "roll back" ]
+  },
+  {
+    "canonical": "security",
+    "synonyms": [ "safety", "protection", "defense", "security measures" ]
+  },
+  {
+    "canonical": "privacy",
+    "synonyms": [ "confidentiality", "data protection", "privacy settings" ]
+  },
+  {
+    "canonical": "encryption",
+    "synonyms": [ "cryptography", "encode", "cipher" ]
+  },
+  {
+    "canonical": "password reset",
+    "synonyms": [ "reset password", "forgot password", "change password" ]
+  },
+  {
+    "canonical": "two-factor authentication",
+    "synonyms": [ "2fa", "two factor", "multi-factor authentication", "mfa" ]
+  },
+  {
+    "canonical": "admin",
+    "synonyms": [ "administrator", "sysadmin", "root", "superuser" ]
+  },
+  {
+    "canonical": "user",
+    "synonyms": [ "end user", "account holder", "customer", "client" ]
+  },
+  {
+    "canonical": "customer",
+    "synonyms": [ "client", "buyer", "purchaser", "user" ]
+  },
+  {
+    "canonical": "support",
+    "synonyms": [ "helpdesk", "customer support", "assistance", "tech support" ]
+  },
+  {
+    "canonical": "documentation",
+    "synonyms": [ "docs", "manual", "guide", "instructions", "readme", "developer docs" ]
+  },
+  {
+    "canonical": "tutorial",
+    "synonyms": [ "guide", "how-to", "walkthrough", "lesson" ]
+  },
+  {
+    "canonical": "example",
+    "synonyms": [ "sample", "illustration", "demo", "ex" ]
+  },
+  {
+    "canonical": "api",
+    "synonyms": [ "application programming interface", "endpoint", "web api", "service" ]
+  },
+  {
+    "canonical": "endpoint",
+    "synonyms": [ "api endpoint", "url", "route" ]
+  },
+  {
+    "canonical": "request",
+    "synonyms": [ "call", "http request", "api call" ]
+  },
+  {
+    "canonical": "response",
+    "synonyms": [ "reply", "result", "http response" ]
+  },
+  {
+    "canonical": "status code",
+    "synonyms": [ "http code", "response code" ]
+  },
+  {
+    "canonical": "error code",
+    "synonyms": [ "err code", "fault code", "error number" ]
+  },
+  {
+    "canonical": "log",
+    "synonyms": [ "logging", "event log", "audit trail", "record" ]
+  },
+  {
+    "canonical": "debug",
+    "synonyms": [ "troubleshoot", "diagnose", "find bug", "debugging" ]
+  },
+  {
+    "canonical": "trace",
+    "synonyms": [ "stack trace", "backtrace", "execution trace" ]
+  },
+  {
+    "canonical": "compile",
+    "synonyms": [ "build", "make", "assemble" ]
+  },
+  {
+    "canonical": "build",
+    "synonyms": [ "compile", "assemble", "construct" ]
+  },
+  {
+    "canonical": "run",
+    "synonyms": [ "execute", "launch", "start", "perform" ]
+  },
+  {
+    "canonical": "test",
+    "synonyms": [ "unit test", "integration test", "qa", "verify" ]
+  },
+  {
+    "canonical": "deploy",
+    "synonyms": [ "release", "publish", "ship", "roll out" ]
+  },
+  {
+    "canonical": "rollback",
+    "synonyms": [ "revert", "undo deployment", "restore previous" ]
+  },
+  {
+    "canonical": "branch",
+    "synonyms": [ "git branch", "feature branch", "vcs branch" ]
+  },
+  {
+    "canonical": "commit",
+    "synonyms": [ "git commit", "save change", "record change" ]
+  },
+  {
+    "canonical": "merge",
+    "synonyms": [ "git merge", "integrate", "combine" ]
+  },
+  {
+    "canonical": "pull request",
+    "synonyms": [ "merge request", "mr", "pr" ]
+  },
+  {
+    "canonical": "issue",
+    "synonyms": [ "ticket", "bug report", "problem report" ]
+  },
+  {
+    "canonical": "feature",
+    "synonyms": [ "functionality", "capability", "enhancement" ]
+  },
+  {
+    "canonical": "priority",
+    "synonyms": [ "importance", "urgency", "rank" ]
+  },
+  {
+    "canonical": "deadline",
+    "synonyms": [ "due date", "cutoff", "time limit" ]
+  },
+  {
+    "canonical": "schedule",
+    "synonyms": [ "timetable", "plan", "calendar", "agenda" ]
+  },
+  {
+    "canonical": "meeting",
+    "synonyms": [ "appointment", "session", "call", "conference" ]
+  },
+  {
+    "canonical": "call",
+    "synonyms": [ "phone call", "voice call", "conference call", "dial" ]
+  },
+  {
+    "canonical": "video call",
+    "synonyms": [ "video conference", "meeting", "zoom call", "skype call" ]
+  },
+  {
+    "canonical": "chat",
+    "synonyms": [ "conversation", "message", "talk", "messaging" ]
+  },
+  {
+    "canonical": "feedback",
+    "synonyms": [ "review", "comment", "input", "response" ]
+  },
+  {
+    "canonical": "rating",
+    "synonyms": [ "score", "review score", "stars" ]
+  },
+  {
+    "canonical": "subscribe",
+    "synonyms": [ "follow", "opt in", "sign up", "enroll", "register" ]
+  },
+  {
+    "canonical": "unsubscribe",
+    "synonyms": [ "opt out", "stop subscription", "cancel subscription", "stop receiving", "remove" ]
+  },
+  {
+    "canonical": "newsletter",
+    "synonyms": [ "mailing list", "email list", "bulletin" ]
+  },
+  {
+    "canonical": "blog",
+    "synonyms": [ "weblog", "post", "article" ]
+  },
+  {
+    "canonical": "forum",
+    "synonyms": [ "discussion board", "message board", "community", "online forum", "bulletin board" ]
+  },
+  {
+    "canonical": "support ticket",
+    "synonyms": [ "ticket", "service request", "help ticket" ]
+  },
+  {
+    "canonical": "billing",
+    "synonyms": [ "invoicing", "payments", "charges", "billing info" ]
+  },
+  {
+    "canonical": "invoice",
+    "synonyms": [ "bill", "statement", "payment request" ]
+  },
+  {
+    "canonical": "refund",
+    "synonyms": [ "reimburse", "repay", "return money" ]
+  },
+  {
+    "canonical": "subscription",
+    "synonyms": [ "plan", "membership", "service plan" ]
+  },
+  {
+    "canonical": "trial",
+    "synonyms": [ "free trial", "trial period", "demo period" ]
+  },
+  {
+    "canonical": "license",
+    "synonyms": [ "licence", "software license", "permission", "permit", "authorization", "certificate", "right" ]
+  },
+  {
+    "canonical": "terms",
+    "synonyms": [ "terms of service", "tos", "conditions" ]
+  },
+  {
+    "canonical": "privacy policy",
+    "synonyms": [ "privacy", "data policy" ]
+  },
+  {
+    "canonical": "refund policy",
+    "synonyms": [ "returns policy", "money-back policy" ]
+  },
+  {
+    "canonical": "contact",
+    "synonyms": [ "reach out", "get in touch", "contact us" ]
+  },
+  {
+    "canonical": "support center",
+    "synonyms": [ "help center", "support hub", "customer center" ]
+  },
+  {
+    "canonical": "faq",
+    "synonyms": [ "frequently asked questions", "common questions", "help faq" ]
+  },
+  {
+    "canonical": "api key",
+    "synonyms": [ "access key", "token", "api token", "credential", "access token", "bearer token" ]
+  },
+  {
+    "canonical": "rate limit",
+    "synonyms": [ "throttle", "limit requests", "request quota" ]
+  },
+  {
+    "canonical": "quota",
+    "synonyms": [ "limit", "allocation", "allowance" ]
+  },
+  {
+    "canonical": "billing cycle",
+    "synonyms": [ "billing period", "payment cycle" ]
+  },
+  {
+    "canonical": "currency",
+    "synonyms": [ "money", "money unit", "monetary unit", "fx" ]
+  },
+  {
+    "canonical": "usd",
+    "synonyms": [ "dollar", "us dollar", "usd$" ]
+  },
+  {
+    "canonical": "eur",
+    "synonyms": [ "euro", "€", "eur€" ]
+  },
+  {
+    "canonical": "gbp",
+    "synonyms": [ "pound", "british pound", "£" ]
+  },
+  {
+    "canonical": "jpy",
+    "synonyms": [ "yen", "¥" ]
+  },
+  {
+    "canonical": "exchange rate",
+    "synonyms": [ "fx rate", "conversion rate", "currency rate" ]
+  },
+  {
+    "canonical": "stock",
+    "synonyms": [ "share", "equity", "stock share" ]
+  },
+  {
+    "canonical": "market",
+    "synonyms": [ "stock market", "exchange", "markets" ]
+  },
+  {
+    "canonical": "investment",
+    "synonyms": [ "investing", "invest", "capital allocation", "put money into", "capital investment", "financial investment" ]
+  },
+  {
+    "canonical": "portfolio",
+    "synonyms": [ "holdings", "investment portfolio" ]
+  },
+  {
+    "canonical": "loan",
+    "synonyms": [ "borrow", "lending", "credit", "debt", "money owed" ]
+  },
+  {
+    "canonical": "mortgage",
+    "synonyms": [ "home loan", "house loan", "property loan", "real estate loan" ]
+  },
+  {
+    "canonical": "insurance",
+    "synonyms": [ "policy", "coverage", "insure" ]
+  },
+  {
+    "canonical": "health",
+    "synonyms": [ "wellness", "medical", "fitness" ]
+  },
+  {
+    "canonical": "doctor",
+    "synonyms": [ "physician", "medic", "dr" ]
+  },
+  {
+    "canonical": "hospital",
+    "synonyms": [ "clinic", "medical center", "infirmary" ]
+  },
+  {
+    "canonical": "appointment",
+    "synonyms": [ "meeting", "booking", "scheduled time" ]
+  },
+  {
+    "canonical": "prescription",
+    "synonyms": [ "rx", "medication order", "script" ]
+  },
+  {
+    "canonical": "symptom",
+    "synonyms": [ "sign", "indicator", "manifestation" ]
+  },
+  {
+    "canonical": "diagnosis",
+    "synonyms": [ "medical diagnosis", "assessment", "evaluation" ]
+  },
+  {
+    "canonical": "treatment",
+    "synonyms": [ "therapy", "care", "remedy", "procedure" ]
+  },
+  {
+    "canonical": "emergency",
+    "synonyms": [ "urgent", "crisis", "911", "emergent" ]
+  },
+  {
+    "canonical": "police",
+    "synonyms": [ "law enforcement", "officers", "cop", "pd" ]
+  },
+  {
+    "canonical": "fire department",
+    "synonyms": [ "fire brigade", "firefighters", "fd" ]
+  },
+  {
+    "canonical": "ambulance",
+    "synonyms": [ "ems", "paramedics", "medical transport" ]
+  },
+  {
+    "canonical": "lawyer",
+    "synonyms": [ "attorney", "counsel", "legal counsel" ]
+  },
+  {
+    "canonical": "court",
+    "synonyms": [ "tribunal", "judiciary", "hearing" ]
+  },
+  {
+    "canonical": "contract",
+    "synonyms": [ "agreement", "deal", "legal contract" ]
+  },
+  {
+    "canonical": "tax",
+    "synonyms": [ "taxation", "levy", "duty" ]
+  },
+  {
+    "canonical": "salary",
+    "synonyms": [ "pay", "wage", "remuneration", "income" ]
+  },
+  {
+    "canonical": "job",
+    "synonyms": [ "work", "position", "role", "employment" ]
+  },
+  {
+    "canonical": "career",
+    "synonyms": [ "profession", "vocation", "occupation" ]
+  },
+  {
+    "canonical": "resume",
+    "synonyms": [ "cv", "curriculum vitae", "profile" ]
+  },
+  {
+    "canonical": "interview",
+    "synonyms": [ "job interview", "screening", "meeting" ]
+  },
+  {
+    "canonical": "hire",
+    "synonyms": [ "employ", "recruit", "onboard" ]
+  },
+  {
+    "canonical": "fire (dismiss)",
+    "synonyms": [ "dismiss", "terminate", "let go", "sack" ]
+  },
+  {
+    "canonical": "promotion",
+    "synonyms": [ "advance", "rise", "elevation", "upgrade" ]
+  },
+  {
+    "canonical": "raise",
+    "synonyms": [ "salary increase", "pay raise", "increase pay" ]
+  },
+  {
+    "canonical": "meeting notes",
+    "synonyms": [ "minutes", "notes", "record of meeting" ]
+  },
+  {
+    "canonical": "presentation",
+    "synonyms": [ "slide deck", "talk", "demo", "lecture" ]
+  },
+  {
+    "canonical": "demo",
+    "synonyms": [ "demonstration", "showcase", "presentation" ]
+  },
+  {
+    "canonical": "prototype",
+    "synonyms": [ "proof of concept", "poc", "demo model" ]
+  },
+  {
+    "canonical": "idea",
+    "synonyms": [ "concept", "notion", "thought", "suggestion" ]
+  },
+  {
+    "canonical": "strategy",
+    "synonyms": [ "plan", "approach", "tactic", "policy" ]
+  },
+  {
+    "canonical": "goal",
+    "synonyms": [ "objective", "aim", "target", "milestone" ]
+  },
+  {
+    "canonical": "metric",
+    "synonyms": [ "measure", "indicator", "kp i", "key performance indicator" ]
+  },
+  {
+    "canonical": "analytics",
+    "synonyms": [ "analysis", "data analysis", "insights", "metrics" ]
+  },
+  {
+    "canonical": "report",
+    "synonyms": [ "summary", "reporting", "paper", "document" ]
+  },
+  {
+    "canonical": "dashboard",
+    "synonyms": [ "control panel", "overview", "stats page" ]
+  },
+  {
+    "canonical": "chart",
+    "synonyms": [ "graph", "plot", "diagram" ]
+  },
+  {
+    "canonical": "table",
+    "synonyms": [ "spreadsheet", "grid", "data table" ]
+  },
+  {
+    "canonical": "export",
+    "synonyms": [ "download", "output", "dump", "extract" ]
+  },
+  {
+    "canonical": "import",
+    "synonyms": [ "upload", "ingest", "load", "bring in" ]
+  },
+  {
+    "canonical": "csv",
+    "synonyms": [ "comma separated values", "spreadsheet file" ]
+  },
+  {
+    "canonical": "json",
+    "synonyms": [ "javascript object notation", "data format" ]
+  },
+  {
+    "canonical": "xml",
+    "synonyms": [ "extensible markup language", "markup" ]
+  },
+  {
+    "canonical": "webhook",
+    "synonyms": [ "callback", "http callback", "event hook" ]
+  },
+  {
+    "canonical": "event",
+    "synonyms": [ "occurrence", "happening", "trigger", "occasion", "gathering", "function" ]
+  },
+  {
+    "canonical": "trigger",
+    "synonyms": [ "activate", "fire", "invoke", "initiate" ]
+  },
+  {
+    "canonical": "automation",
+    "synonyms": [ "automate", "automation script", "robotic process" ]
+  },
+  {
+    "canonical": "script",
+    "synonyms": [ "script file", "automation script", "batch" ]
+  },
+  {
+    "canonical": "cron",
+    "synonyms": [ "scheduled job", "scheduler", "cron job" ]
+  },
+  {
+    "canonical": "task",
+    "synonyms": [ "job", "work item", "todo", "action item" ]
+  },
+  {
+    "canonical": "todo",
+    "synonyms": [ "to-do", "task", "item", "checklist item" ]
+  },
+  {
+    "canonical": "checklist",
+    "synonyms": [ "list", "todo list", "task list" ]
+  },
+  {
+    "canonical": "weather forecast",
+    "synonyms": [ "weather outlook", "weather prediction", "weather report", "meteorological forecast" ]
+  },
+  {
+    "canonical": "temperature",
+    "synonyms": [ "temp", "degrees", "heat level", "thermometer reading" ]
+  },
+  {
+    "canonical": "humidity",
+    "synonyms": [ "moisture level", "dampness", "relative humidity", "rh" ]
+  },
+  {
+    "canonical": "precipitation",
+    "synonyms": [ "rainfall", "snowfall", "rain", "snow", "precip" ]
+  },
+  {
+    "canonical": "wind",
+    "synonyms": [ "breeze", "gust", "airflow", "wind speed" ]
+  },
+  {
+    "canonical": "sunny",
+    "synonyms": [ "clear", "fair", "bright", "sunshine" ]
+  },
+  {
+    "canonical": "cloudy",
+    "synonyms": [ "overcast", "grey", "cloud cover", "dull" ]
+  },
+  {
+    "canonical": "rainy",
+    "synonyms": [ "wet", "showery", "drizzly", "pouring" ]
+  },
+  {
+    "canonical": "snowy",
+    "synonyms": [ "snowing", "wintry", "flurries", "blizzard" ]
+  },
+  {
+    "canonical": "stormy",
+    "synonyms": [ "thunderstorm", "lightning", "tempest", "squall" ]
+  },
+  {
+    "canonical": "traffic",
+    "synonyms": [ "congestion", "jam", "gridlock", "road conditions" ]
+  },
+  {
+    "canonical": "navigation",
+    "synonyms": [ "gps", "wayfinding", "directions", "route guidance" ]
+  },
+  {
+    "canonical": "destination",
+    "synonyms": [ "end point", "goal", "target location", "arrival point" ]
+  },
+  {
+    "canonical": "arrival",
+    "synonyms": [ "arrive", "get there", "reach", "come to" ]
+  },
+  {
+    "canonical": "departure",
+    "synonyms": [ "leave", "set out", "embark", "take off" ]
+  },
+  {
+    "canonical": "delay",
+    "synonyms": [ "late", "hold up", "setback", "postponement" ]
+  },
+  {
+    "canonical": "on time",
+    "synonyms": [ "punctual", "timely", "on schedule", "as planned" ]
+  },
+  {
+    "canonical": "cancel",
+    "synonyms": [ "call off", "abort", "scrap", "terminate" ]
+  },
+  {
+    "canonical": "reschedule",
+    "synonyms": [ "rearrange", "postpone", "move", "change time" ]
+  },
+  {
+    "canonical": "confirmation",
+    "synonyms": [ "verify", "confirm", "acknowledge", "validation" ]
+  },
+  {
+    "canonical": "booking",
+    "synonyms": [ "reservation", "appointment", "schedule", "arrangement" ]
+  },
+  {
+    "canonical": "check in",
+    "synonyms": [ "register", "arrive at hotel", "sign in", "report" ]
+  },
+  {
+    "canonical": "check out",
+    "synonyms": [ "leave hotel", "depart", "vacate", "settle bill" ]
+  },
+  {
+    "canonical": "luggage",
+    "synonyms": [ "baggage", "suitcase", "bags", "packing" ]
+  },
+  {
+    "canonical": "passport",
+    "synonyms": [ "travel document", "id", "identification", "travel papers" ]
+  },
+  {
+    "canonical": "visa",
+    "synonyms": [ "entry permit", "travel visa", "authorization", "clearance" ]
+  },
+  {
+    "canonical": "currency exchange",
+    "synonyms": [ "money exchange", "forex", "convert currency", "change money" ]
+  },
+  {
+    "canonical": "time zone",
+    "synonyms": [ "tz", "timezone", "local time", "clock setting" ]
+  },
+  {
+    "canonical": "jet lag",
+    "synonyms": [ "time zone fatigue", "travel fatigue", "circadian disruption" ]
+  },
+  {
+    "canonical": "accommodation",
+    "synonyms": [ "lodging", "place to stay", "housing", "quarters" ]
+  },
+  {
+    "canonical": "vacation",
+    "synonyms": [ "holiday", "break", "time off", "getaway" ]
+  },
+  {
+    "canonical": "business trip",
+    "synonyms": [ "work travel", "corporate travel", "professional travel" ]
+  },
+  {
+    "canonical": "entertainment",
+    "synonyms": [ "amusement", "recreation", "leisure", "fun" ]
+  },
+  {
+    "canonical": "movie theater",
+    "synonyms": [ "cinema", "films", "movie house", "picture house" ]
+  },
+  {
+    "canonical": "concert",
+    "synonyms": [ "performance", "show", "gig", "recital" ]
+  },
+  {
+    "canonical": "theater",
+    "synonyms": [ "playhouse", "stage", "drama theater", "performing arts" ]
+  },
+  {
+    "canonical": "museum",
+    "synonyms": [ "gallery", "exhibition", "art museum", "history museum" ]
+  },
+  {
+    "canonical": "park",
+    "synonyms": [ "green space", "public garden", "recreation area", "playground" ]
+  },
+  {
+    "canonical": "shopping mall",
+    "synonyms": [ "mall", "shopping center", "plaza", "retail complex" ]
+  },
+  {
+    "canonical": "grocery",
+    "synonyms": [ "supermarket", "food store", "market", "grocery store" ]
+  },
+  {
+    "canonical": "pharmacy",
+    "synonyms": [ "drugstore", "chemist", "apothecary", "pharm" ]
+  },
+  {
+    "canonical": "bank",
+    "synonyms": [ "financial institution", "credit union", "banking", "money bank" ]
+  },
+  {
+    "canonical": "atm",
+    "synonyms": [ "cash machine", "cashpoint", "automated teller", "bank machine" ]
+  },
+  {
+    "canonical": "withdraw",
+    "synonyms": [ "take out", "get cash", "withdrawal", "pull out" ]
+  },
+  {
+    "canonical": "deposit",
+    "synonyms": [ "put in", "add funds", "bank deposit", "credit" ]
+  },
+  {
+    "canonical": "balance",
+    "synonyms": [ "account balance", "remaining", "funds", "available amount" ]
+  },
+  {
+    "canonical": "transaction",
+    "synonyms": [ "payment", "transfer", "deal", "financial transaction" ]
+  },
+  {
+    "canonical": "receipt",
+    "synonyms": [ "proof of purchase", "sales slip", "invoice copy", "transaction record" ]
+  },
+  {
+    "canonical": "budget",
+    "synonyms": [ "financial plan", "spending plan", "allocation", "estimate" ]
+  },
+  {
+    "canonical": "expense",
+    "synonyms": [ "cost", "expenditure", "outlay", "spending" ]
+  },
+  {
+    "canonical": "income",
+    "synonyms": [ "earnings", "revenue", "salary", "wages" ]
+  },
+  {
+    "canonical": "savings",
+    "synonyms": [ "nest egg", "reserves", "put aside", "saved money" ]
+  },
+  {
+    "canonical": "credit",
+    "synonyms": [ "borrowing capacity", "credit line", "creditworthiness", "loan ability" ]
+  },
+  {
+    "canonical": "interest rate",
+    "synonyms": [ "apr", "annual percentage rate", "borrowing cost", "loan rate" ]
+  },
+  {
+    "canonical": "rent",
+    "synonyms": [ "lease", "rental", "hire", "tenancy" ]
+  },
+  {
+    "canonical": "utilities",
+    "synonyms": [ "bills", "services", "electricity water gas", "household services" ]
+  },
+  {
+    "canonical": "electricity",
+    "synonyms": [ "power", "electrical power", "current", "energy" ]
+  },
+  {
+    "canonical": "gas",
+    "synonyms": [ "natural gas", "fuel gas", "cooking gas", "heating gas" ]
+  },
+  {
+    "canonical": "internet service",
+    "synonyms": [ "isp", "broadband", "web access", "online service" ]
+  },
+  {
+    "canonical": "cable tv",
+    "synonyms": [ "television", "tv service", "satellite tv", "pay tv" ]
+  },
+  {
+    "canonical": "mobile plan",
+    "synonyms": [ "cell plan", "phone plan", "wireless plan", "data plan" ]
+  },
+  {
+    "canonical": "data usage",
+    "synonyms": [ "data consumption", "bandwidth usage", "internet usage", "data limit" ]
+  },
+  {
+    "canonical": "roaming",
+    "synonyms": [ "international roaming", "travel data", "overseas service", "mobile abroad" ]
+  },
+  {
+    "canonical": "social media",
+    "synonyms": [ "social network", "social platform", "online community", "social networking" ]
+  },
+  {
+    "canonical": "facebook",
+    "synonyms": [ "fb", "meta", "facebook.com", "social network" ]
+  },
+  {
+    "canonical": "twitter",
+    "synonyms": [ "x", "tweet", "twitter.com", "microblogging" ]
+  },
+  {
+    "canonical": "instagram",
+    "synonyms": [ "ig", "insta", "instagram.com", "photo sharing" ]
+  },
+  {
+    "canonical": "linkedin",
+    "synonyms": [ "professional network", "linkedin.com", "business network", "career site" ]
+  },
+  {
+    "canonical": "youtube",
+    "synonyms": [ "video platform", "youtube.com", "video sharing", "streaming video" ]
+  },
+  {
+    "canonical": "tiktok",
+    "synonyms": [ "short video", "tiktok.com", "video app", "social video" ]
+  },
+  {
+    "canonical": "whatsapp",
+    "synonyms": [ "messaging app", "whatsapp.com", "chat app", "instant messaging" ]
+  },
+  {
+    "canonical": "telegram",
+    "synonyms": [ "telegram app", "telegram.org", "messenger", "secure chat" ]
+  },
+  {
+    "canonical": "discord",
+    "synonyms": [ "discord app", "chat server", "gaming chat", "voice chat" ]
+  },
+  {
+    "canonical": "streaming",
+    "synonyms": [ "video streaming", "online streaming", "live stream", "broadcast" ]
+  },
+  {
+    "canonical": "netflix",
+    "synonyms": [ "streaming service", "netflix.com", "movie streaming", "tv streaming" ]
+  },
+  {
+    "canonical": "spotify",
+    "synonyms": [ "music streaming", "spotify.com", "audio streaming", "music service" ]
+  },
+  {
+    "canonical": "podcast",
+    "synonyms": [ "audio program", "webcast", "audio series", "digital broadcast" ]
+  },
+  {
+    "canonical": "audiobook",
+    "synonyms": [ "audio book", "spoken book", "recorded book", "book audio" ]
+  },
+  {
+    "canonical": "ebook",
+    "synonyms": [ "digital book", "electronic book", "e-book", "digital publication" ]
+  },
+  {
+    "canonical": "newspaper",
+    "synonyms": [ "news", "paper", "daily", "gazette" ]
+  },
+  {
+    "canonical": "magazine",
+    "synonyms": [ "periodical", "journal", "publication", "zine" ]
+  },
+  {
+    "canonical": "news",
+    "synonyms": [ "current events", "headlines", "breaking news", "reports" ]
+  },
+  {
+    "canonical": "headline",
+    "synonyms": [ "title", "main story", "top story", "news headline" ]
+  },
+  {
+    "canonical": "article",
+    "synonyms": [ "story", "piece", "report", "feature" ]
+  },
+  {
+    "canonical": "editorial",
+    "synonyms": [ "opinion piece", "commentary", "op-ed", "editor's note" ]
+  },
+  {
+    "canonical": "advertisement",
+    "synonyms": [ "ad", "commercial", "promotion", "marketing message" ]
+  },
+  {
+    "canonical": "sponsor",
+    "synonyms": [ "advertiser", "supporter", "backer", "patron" ]
+  },
+  {
+    "canonical": "notification",
+    "synonyms": [ "alert", "notice", "message", "push notification" ]
+  },
+  {
+    "canonical": "reminder",
+    "synonyms": [ "prompt", "alert", "memory jogger", "nudge" ]
+  },
+  {
+    "canonical": "calendar",
+    "synonyms": [ "schedule", "planner", "datebook", "agenda" ]
+  },
+  {
+    "canonical": "birthday",
+    "synonyms": [ "bday", "date of birth", "dob", "anniversary of birth" ]
+  },
+  {
+    "canonical": "anniversary",
+    "synonyms": [ "yearly celebration", "commemoration", "milestone", "special date" ]
+  },
+  {
+    "canonical": "holiday",
+    "synonyms": [ "festival", "celebration", "public holiday", "bank holiday" ]
+  },
+  {
+    "canonical": "christmas",
+    "synonyms": [ "xmas", "christmas day", "dec 25", "holiday season" ]
+  },
+  {
+    "canonical": "new year",
+    "synonyms": [ "new year's day", "jan 1", "year's beginning", "new year celebration" ]
+  },
+  {
+    "canonical": "easter",
+    "synonyms": [ "easter sunday", "resurrection day", "spring festival", "easter holiday" ]
+  },
+  {
+    "canonical": "thanksgiving",
+    "synonyms": [ "turkey day", "thanksgiving day", "fall holiday", "november holiday" ]
+  },
+  {
+    "canonical": "valentine's day",
+    "synonyms": [ "feb 14", "valentine", "love day", "heart day" ]
+  },
+  {
+    "canonical": "halloween",
+    "synonyms": [ "oct 31", "all hallows' eve", "trick or treat", "spooky day" ]
+  },
+  {
+    "canonical": "gift",
+    "synonyms": [ "present", "donation", "offering", "token" ]
+  },
+  {
+    "canonical": "card",
+    "synonyms": [ "greeting card", "postcard", "note card", "message card" ]
+  },
+  {
+    "canonical": "wish",
+    "synonyms": [ "desire", "hope", "want", "aspiration" ]
+  },
+  {
+    "canonical": "congratulations",
+    "synonyms": [ "congrats", "well done", "bravo", "kudos" ]
+  },
+  {
+    "canonical": "condolences",
+    "synonyms": [ "sympathy", "sorry for your loss", "thoughts are with you", "deepest sympathy" ]
+  },
+  {
+    "canonical": "apology",
+    "synonyms": [ "sorry", "regret", "apologize", "mea culpa" ]
+  },
+  {
+    "canonical": "forgive",
+    "synonyms": [ "pardon", "excuse", "overlook", "let go" ]
+  },
+  {
+    "canonical": "complaint",
+    "synonyms": [ "grievance", "issue", "problem", "dissatisfaction" ]
+  },
+  {
+    "canonical": "suggestion",
+    "synonyms": [ "idea", "proposal", "recommendation", "tip" ]
+  },
+  {
+    "canonical": "recommendation",
+    "synonyms": [ "suggestion", "advice", "endorsement", "referral" ]
+  },
+  {
+    "canonical": "review",
+    "synonyms": [ "evaluation", "assessment", "critique", "appraisal" ]
+  },
+  {
+    "canonical": "popular",
+    "synonyms": [ "trending", "hot", "in demand", "well-liked" ]
+  },
+  {
+    "canonical": "trending",
+    "synonyms": [ "viral", "popular now", "hot topic", "buzzing" ]
+  },
+  {
+    "canonical": "viral",
+    "synonyms": [ "spreading quickly", "internet sensation", "exploding", "trending wildly" ]
+  },
+  {
+    "canonical": "influencer",
+    "synonyms": [ "content creator", "social media star", "digital creator", "online personality" ]
+  },
+  {
+    "canonical": "follower",
+    "synonyms": [ "subscriber", "fan", "supporter", "audience member" ]
+  },
+  {
+    "canonical": "like",
+    "synonyms": [ "thumbs up", "favorite", "heart", "approve" ]
+  },
+  {
+    "canonical": "share",
+    "synonyms": [ "repost", "retweet", "forward", "pass along" ]
+  },
+  {
+    "canonical": "comment",
+    "synonyms": [ "remark", "note", "response", "feedback" ]
+  },
+  {
+    "canonical": "hashtag",
+    "synonyms": [ "tag", "#tag", "keyword tag", "social tag" ]
+  },
+  {
+    "canonical": "mention",
+    "synonyms": [ "tag someone", "@mention", "reference", "include" ]
+  },
+  {
+    "canonical": "direct message",
+    "synonyms": [ "dm", "private message", "pm", "personal message" ]
+  },
+  {
+    "canonical": "group chat",
+    "synonyms": [ "group message", "chat group", "messaging group", "team chat" ]
+  },
+  {
+    "canonical": "channel",
+    "synonyms": [ "broadcast channel", "communication channel", "chat channel", "stream" ]
+  },
+  {
+    "canonical": "community",
+    "synonyms": [ "group", "network", "circle", "society" ]
+  },
+  {
+    "canonical": "thread",
+    "synonyms": [ "conversation thread", "discussion thread", "message thread", "post chain" ]
+  },
+  {
+    "canonical": "post",
+    "synonyms": [ "publication", "entry", "update", "content piece" ]
+  },
+  {
+    "canonical": "attachment",
+    "synonyms": [ "file attachment", "enclosure", "added file", "included file" ]
+  },
+  {
+    "canonical": "screenshot",
+    "synonyms": [ "screen capture", "screen grab", "screen shot", "capture" ]
+  },
+  {
+    "canonical": "recording",
+    "synonyms": [ "audio recording", "video recording", "capture", "taping" ]
+  },
+  {
+    "canonical": "live",
+    "synonyms": [ "real-time", "streaming now", "currently live", "in progress" ]
+  },
+  {
+    "canonical": "recorded",
+    "synonyms": [ "pre-recorded", "saved", "archived", "captured earlier" ]
+  },
+  {
+    "canonical": "play",
+    "synonyms": [ "start", "begin", "run", "execute" ]
+  },
+  {
+    "canonical": "pause",
+    "synonyms": [ "stop temporarily", "halt", "suspend", "break" ]
+  },
+  {
+    "canonical": "stop",
+    "synonyms": [ "end", "terminate", "cease", "halt completely" ]
+  },
+  {
+    "canonical": "rewind",
+    "synonyms": [ "go back", "reverse", "back up", "replay" ]
+  },
+  {
+    "canonical": "fast forward",
+    "synonyms": [ "skip ahead", "advance", "jump forward", "speed through" ]
+  },
+  {
+    "canonical": "volume",
+    "synonyms": [ "sound level", "audio level", "loudness", "sound intensity" ]
+  },
+  {
+    "canonical": "mute",
+    "synonyms": [ "silence", "turn off sound", "quiet", "disable audio" ]
+  },
+  {
+    "canonical": "unmute",
+    "synonyms": [ "turn on sound", "enable audio", "restore volume", "sound on" ]
+  },
+  {
+    "canonical": "brightness",
+    "synonyms": [ "screen brightness", "display brightness", "light level", "illumination" ]
+  },
+  {
+    "canonical": "contrast",
+    "synonyms": [ "color contrast", "display contrast", "image contrast", "tone difference" ]
+  },
+  {
+    "canonical": "resolution",
+    "synonyms": [ "display resolution", "screen resolution", "pixel density", "image quality" ]
+  },
+  {
+    "canonical": "hd",
+    "synonyms": [ "high definition", "720p", "1080p", "high resolution" ]
+  },
+  {
+    "canonical": "4k",
+    "synonyms": [ "ultra hd", "uhd", "2160p", "4k resolution" ]
+  },
+  {
+    "canonical": "hdr",
+    "synonyms": [ "high dynamic range", "hdr video", "enhanced contrast", "wide color" ]
+  },
+  {
+    "canonical": "aspect ratio",
+    "synonyms": [ "screen ratio", "display ratio", "width to height", "proportion" ]
+  },
+  {
+    "canonical": "fullscreen",
+    "synonyms": [ "maximize", "full view", "entire screen", "expanded view" ]
+  },
+  {
+    "canonical": "windowed",
+    "synonyms": [ "window mode", "not fullscreen", "partial screen", "bordered" ]
+  },
+  {
+    "canonical": "minimize",
+    "synonyms": [ "reduce", "hide window", "shrink", "send to taskbar" ]
+  },
+  {
+    "canonical": "maximize",
+    "synonyms": [ "enlarge", "expand", "full screen", "make larger" ]
+  },
+  {
+    "canonical": "close window",
+    "synonyms": [ "exit", "quit", "shut", "terminate window" ]
+  },
+  {
+    "canonical": "taskbar",
+    "synonyms": [ "system tray", "dock", "launcher", "application bar" ]
+  },
+  {
+    "canonical": "desktop",
+    "synonyms": [ "home screen", "main screen", "computer desktop", "workspace" ]
+  },
+  {
+    "canonical": "shortcut",
+    "synonyms": [ "alias", "link", "quick access", "desktop icon" ]
+  },
+  {
+    "canonical": "recycle bin",
+    "synonyms": [ "trash", "wastebasket", "deleted items", "garbage" ]
+  },
+  {
+    "canonical": "empty trash",
+    "synonyms": [ "clear recycle bin", "delete permanently", "purge deleted", "clean trash" ]
+  },
+  {
+    "canonical": "search",
+    "synonyms": [ "find", "look for", "seek", "locate" ]
+  },
+  {
+    "canonical": "find and replace",
+    "synonyms": [ "search and replace", "replace text", "substitute", "change text" ]
+  },
+  {
+    "canonical": "select all",
+    "synonyms": [ "choose all", "highlight all", "pick everything", "ctrl+a" ]
+  },
+  {
+    "canonical": "undo",
+    "synonyms": [ "reverse", "take back", "revert", "ctrl+z" ]
+  },
+  {
+    "canonical": "redo",
+    "synonyms": [ "repeat", "do again", "restore", "ctrl+y" ]
+  },
+  {
+    "canonical": "save",
+    "synonyms": [ "store", "keep", "preserve", "ctrl+s" ]
+  },
+  {
+    "canonical": "save as",
+    "synonyms": [ "save copy as", "save with new name", "export as", "different filename" ]
+  },
+  {
+    "canonical": "new",
+    "synonyms": [ "create", "make new", "start fresh", "begin" ]
+  },
+  {
+    "canonical": "print preview",
+    "synonyms": [ "see before printing", "preview print", "print layout", "view before print" ]
+  },
+  {
+    "canonical": "page setup",
+    "synonyms": [ "printing setup", "paper settings", "layout settings", "print configuration" ]
+  },
+  {
+    "canonical": "margins",
+    "synonyms": [ "page margins", "edge space", "border space", "white space" ]
+  },
+  {
+    "canonical": "orientation",
+    "synonyms": [ "page orientation", "portrait or landscape", "direction", "layout direction" ]
+  },
+  {
+    "canonical": "portrait",
+    "synonyms": [ "vertical", "tall", "upright", "height greater than width" ]
+  },
+  {
+    "canonical": "landscape",
+    "synonyms": [ "horizontal", "wide", "broad", "width greater than height" ]
+  },
+  {
+    "canonical": "header",
+    "synonyms": [ "top margin", "page header", "top section", "heading area" ]
+  },
+  {
+    "canonical": "footer",
+    "synonyms": [ "bottom margin", "page footer", "bottom section", "foot area" ]
+  },
+  {
+    "canonical": "page number",
+    "synonyms": [ "pagination", "page #", "folio", "page indicator" ]
+  },
+  {
+    "canonical": "table of contents",
+    "synonyms": [ "toc", "contents", "index", "chapter list" ]
+  },
+  {
+    "canonical": "index",
+    "synonyms": [ "alphabetical index", "reference index", "keyword list", "subject index" ]
+  },
+  {
+    "canonical": "glossary",
+    "synonyms": [ "terms list", "definition list", "vocabulary", "word list" ]
+  },
+  {
+    "canonical": "appendix",
+    "synonyms": [ "supplement", "additional material", "extra section", "annex" ]
+  },
+  {
+    "canonical": "bibliography",
+    "synonyms": [ "references", "works cited", "sources", "citation list" ]
+  },
+  {
+    "canonical": "citation",
+    "synonyms": [ "reference", "source citation", "quotation reference", "academic reference" ]
+  },
+  {
+    "canonical": "footnote",
+    "synonyms": [ "bottom note", "reference note", "explanatory note", "annotation" ]
+  },
+  {
+    "canonical": "endnote",
+    "synonyms": [ "end of document note", "final note", "concluding note", "back matter note" ]
+  },
+  {
+    "canonical": "bookmark",
+    "synonyms": [ "favorite", "saved link", "marked page", "quick link" ]
+  },
+  {
+    "canonical": "history",
+    "synonyms": [ "browsing history", "recent pages", "visited sites", "past activity" ]
+  },
+  {
+    "canonical": "cache",
+    "synonyms": [ "temporary files", "stored data", "local storage", "browser cache" ]
+  },
+  {
+    "canonical": "cookies",
+    "synonyms": [ "browser cookies", "tracking cookies", "website data", "session data" ]
+  },
+  {
+    "canonical": "clear cache",
+    "synonyms": [ "delete temporary files", "clear browsing data", "clean cache", "remove stored data" ]
+  },
+  {
+    "canonical": "incognito",
+    "synonyms": [ "private browsing", "inprivate", "privacy mode", "stealth mode" ]
+  },
+  {
+    "canonical": "vpn",
+    "synonyms": [ "virtual private network", "secure connection", "privacy tunnel", "encrypted connection" ]
+  },
+  {
+    "canonical": "proxy",
+    "synonyms": [ "proxy server", "intermediary server", "relay server", "gateway" ]
+  },
+  {
+    "canonical": "firewall",
+    "synonyms": [ "security wall", "network firewall", "protection system", "access control" ]
+  },
+  {
+    "canonical": "antivirus",
+    "synonyms": [ "virus protection", "malware protection", "security software", "av" ]
+  },
+  {
+    "canonical": "malware",
+    "synonyms": [ "virus", "trojan", "spyware", "ransomware" ]
+  },
+  {
+    "canonical": "phishing",
+    "synonyms": [ "scam email", "fraud attempt", "identity theft attempt", "fake website" ]
+  },
+  {
+    "canonical": "spam",
+    "synonyms": [ "junk mail", "unsolicited email", "bulk email", "unwanted messages" ]
+  },
+  {
+    "canonical": "block",
+    "synonyms": [ "ban", "prevent", "stop", "restrict" ]
+  },
+  {
+    "canonical": "allow",
+    "synonyms": [ "permit", "enable", "authorize", "grant access" ]
+  },
+  {
+    "canonical": "permission",
+    "synonyms": [ "authorization", "access right", "privilege", "allowance" ]
+  },
+  {
+    "canonical": "access",
+    "synonyms": [ "entry", "admittance", "entryway", "gateway" ]
+  },
+  {
+    "canonical": "deny",
+    "synonyms": [ "refuse", "reject", "decline", "disallow" ]
+  },
+  {
+    "canonical": "grant",
+    "synonyms": [ "give", "award", "provide", "bestow" ]
+  },
+  {
+    "canonical": "revoke",
+    "synonyms": [ "take away", "remove", "cancel", "withdraw" ]
+  },
+  {
+    "canonical": "suspend",
+    "synonyms": [ "temporarily disable", "pause", "halt", "freeze" ]
+  },
+  {
+    "canonical": "reactivate",
+    "synonyms": [ "restore", "reenable", "turn back on", "resume" ]
+  },
+  {
+    "canonical": "deactivate",
+    "synonyms": [ "disable", "turn off", "shut down", "make inactive" ]
+  },
+  {
+    "canonical": "activate",
+    "synonyms": [ "enable", "turn on", "start up", "make active" ]
+  },
+  {
+    "canonical": "deregister",
+    "synonyms": [ "unregister", "remove registration", "cancel registration", "withdraw" ]
+  },
+  {
+    "canonical": "verify",
+    "synonyms": [ "confirm", "authenticate", "validate", "check" ]
+  },
+  {
+    "canonical": "authentication",
+    "synonyms": [ "login process", "verification", "identity check", "access verification" ]
+  },
+  {
+    "canonical": "authorization",
+    "synonyms": [ "permission check", "access control", "rights verification", "approval" ]
+  },
+  {
+    "canonical": "session",
+    "synonyms": [ "login session", "active period", "usage period", "connection time" ]
+  },
+  {
+    "canonical": "timeout",
+    "synonyms": [ "session timeout", "auto logout", "inactivity logout", "expiration" ]
+  },
+  {
+    "canonical": "extend session",
+    "synonyms": [ "keep alive", "prevent timeout", "continue session", "stay logged in" ]
+  },
+  {
+    "canonical": "log out",
+    "synonyms": [ "sign out", "logout", "exit account", "end session" ]
+  },
+  {
+    "canonical": "force logout",
+    "synonyms": [ "log out all devices", "terminate all sessions", "kick out", "remote logout" ]
+  },
+  {
+    "canonical": "activity log",
+    "synonyms": [ "audit trail", "history log", "usage log", "event history" ]
+  },
+  {
+    "canonical": "audit",
+    "synonyms": [ "review", "examination", "inspection", "assessment" ]
+  },
+  {
+    "canonical": "compliance",
+    "synonyms": [ "regulation adherence", "rule following", "policy compliance", "standards meeting" ]
+  },
+  {
+    "canonical": "gdpr",
+    "synonyms": [ "general data protection regulation", "european privacy law", "data protection", "gdpr compliance" ]
+  },
+  {
+    "canonical": "ccpa",
+    "synonyms": [ "california consumer privacy act", "california privacy law", "ccpa compliance", "consumer privacy" ]
+  },
+  {
+    "canonical": "hipaa",
+    "synonyms": [ "health insurance portability and accountability act", "medical privacy", "healthcare privacy", "hipaa compliance" ]
+  },
+  {
+    "canonical": "pci dss",
+    "synonyms": [ "payment card industry data security standard", "credit card security", "payment security", "pci compliance" ]
+  },
+  {
+    "canonical": "iso",
+    "synonyms": [ "international organization for standardization", "iso standards", "quality standards", "certification" ]
+  },
+  {
+    "canonical": "soc",
+    "synonyms": [ "service organization control", "soc report", "security audit", "compliance report" ]
+  },
+  {
+    "canonical": "certification",
+    "synonyms": [ "certificate", "credential", "qualification", "accreditation" ]
+  },
+  {
+    "canonical": "accreditation",
+    "synonyms": [ "official recognition", "authorization", "endorsement", "certification" ]
+  },
+  {
+    "canonical": "regulation",
+    "synonyms": [ "rule", "law", "directive", "statute" ]
+  },
+  {
+    "canonical": "policy",
+    "synonyms": [ "guideline", "rule", "procedure", "protocol" ]
+  },
+  {
+    "canonical": "procedure",
+    "synonyms": [ "process", "method", "routine", "steps" ]
+  },
+  {
+    "canonical": "protocol",
+    "synonyms": [ "standard procedure", "convention", "agreement", "method" ]
+  },
+  {
+    "canonical": "standard",
+    "synonyms": [ "norm", "benchmark", "criterion", "specification" ]
+  },
+  {
+    "canonical": "specification",
+    "synonyms": [ "spec", "requirement", "description", "detail" ]
+  },
+  {
+    "canonical": "requirement",
+    "synonyms": [ "need", "prerequisite", "condition", "demand" ]
+  },
+  {
+    "canonical": "prerequisite",
+    "synonyms": [ "requirement", "condition", "must-have", "precondition" ]
+  },
+  {
+    "canonical": "condition",
+    "synonyms": [ "term", "stipulation", "requirement", "provision" ]
+  },
+  {
+    "canonical": "term",
+    "synonyms": [ "condition", "provision", "clause", "stipulation" ]
+  },
+  {
+    "canonical": "clause",
+    "synonyms": [ "section", "article", "provision", "paragraph" ]
+  },
+  {
+    "canonical": "negotiation",
+    "synonyms": [ "bargaining", "discussion", "talks", "mediation" ]
+  },
+  {
+    "canonical": "mediation",
+    "synonyms": [ "arbitration", "conciliation", "dispute resolution", "intervention" ]
+  },
+  {
+    "canonical": "arbitration",
+    "synonyms": [ "mediation", "dispute resolution", "settlement", "adjudication" ]
+  },
+  {
+    "canonical": "litigation",
+    "synonyms": [ "lawsuit", "legal action", "court case", "legal proceedings" ]
+  },
+  {
+    "canonical": "lawsuit",
+    "synonyms": [ "legal case", "court case", "suit", "legal action" ]
+  },
+  {
+    "canonical": "plaintiff",
+    "synonyms": [ "claimant", "complainant", "accuser", "petitioner" ]
+  },
+  {
+    "canonical": "defendant",
+    "synonyms": [ "accused", "respondent", "the defense", "charged party" ]
+  },
+  {
+    "canonical": "witness",
+    "synonyms": [ "observer", "testifier", "eyewitness", "bystander" ]
+  },
+  {
+    "canonical": "testimony",
+    "synonyms": [ "statement", "evidence", "declaration", "account" ]
+  },
+  {
+    "canonical": "evidence",
+    "synonyms": [ "proof", "documentation", "support", "verification" ]
+  },
+  {
+    "canonical": "proof",
+    "synonyms": [ "evidence", "verification", "confirmation", "substantiation" ]
+  },
+  {
+    "canonical": "validation",
+    "synonyms": [ "verification", "confirmation", "authentication", "approval" ]
+  },
+  {
+    "canonical": "identification",
+    "synonyms": [ "id", "identity verification", "id check", "identity proof" ]
+  },
+  {
+    "canonical": "identity",
+    "synonyms": [ "who you are", "personal identity", "self", "persona" ]
+  },
+  {
+    "canonical": "persona",
+    "synonyms": [ "identity", "character", "role", "image" ]
+  },
+  {
+    "canonical": "bio",
+    "synonyms": [ "biography", "about me", "personal description", "profile info" ]
+  },
+  {
+    "canonical": "biography",
+    "synonyms": [ "life story", "personal history", "autobiography", "life account" ]
+  },
+  {
+    "canonical": "autobiography",
+    "synonyms": [ "self-written biography", "memoir", "personal memoir", "life story" ]
+  },
+  {
+    "canonical": "memoir",
+    "synonyms": [ "autobiography", "reminiscence", "personal account", "life回忆录" ]
+  },
+  {
+    "canonical": "diary",
+    "synonyms": [ "journal", "log", "daily record", "personal journal" ]
+  },
+  {
+    "canonical": "journal",
+    "synonyms": [ "diary", "logbook", "record", "notebook" ]
+  },
+  {
+    "canonical": "logbook",
+    "synonyms": [ "record book", "log", "register", "record" ]
+  },
+  {
+    "canonical": "entry",
+    "synonyms": [ "record", "item", "post", "listing" ]
+  },
+  {
+    "canonical": "item",
+    "synonyms": [ "thing", "object", "piece", "element" ]
+  },
+  {
+    "canonical": "object",
+    "synonyms": [ "thing", "item", "entity", "article" ]
+  },
+  {
+    "canonical": "entity",
+    "synonyms": [ "thing", "object", "being", "existence" ]
+  },
+  {
+    "canonical": "existence",
+    "synonyms": [ "being", "presence", "reality", "life" ]
+  },
+  {
+    "canonical": "presence",
+    "synonyms": [ "existence", "attendance", "being there", "availability" ]
+  },
+  {
+    "canonical": "absence",
+    "synonyms": [ "nonattendance", "lack", "missing", "not present" ]
+  },
+  {
+    "canonical": "attendance",
+    "synonyms": [ "presence", "participation", "attending", "being present" ]
+  },
+  {
+    "canonical": "participation",
+    "synonyms": [ "involvement", "engagement", "taking part", "contribution" ]
+  },
+  {
+    "canonical": "engagement",
+    "synonyms": [ "involvement", "participation", "commitment", "connection" ]
+  },
+  {
+    "canonical": "commitment",
+    "synonyms": [ "dedication", "pledge", "obligation", "promise" ]
+  },
+  {
+    "canonical": "dedication",
+    "synonyms": [ "commitment", "devotion", "loyalty", "allegiance" ]
+  },
+  {
+    "canonical": "devotion",
+    "synonyms": [ "dedication", "commitment", "loyalty", "faithfulness" ]
+  },
+  {
+    "canonical": "loyalty",
+    "synonyms": [ "faithfulness", "allegiance", "devotion", "fidelity" ]
+  },
+  {
+    "canonical": "fidelity",
+    "synonyms": [ "loyalty", "faithfulness", "allegiance", "devotion" ]
+  },
+  {
+    "canonical": "allegiance",
+    "synonyms": [ "loyalty", "faithfulness", "commitment", "dedication" ]
+  },
+  {
+    "canonical": "faith",
+    "synonyms": [ "belief", "trust", "confidence", "conviction" ]
+  },
+  {
+    "canonical": "belief",
+    "synonyms": [ "conviction", "opinion", "view", "faith" ]
+  },
+  {
+    "canonical": "conviction",
+    "synonyms": [ "belief", "certainty", "faith", "principle" ]
+  },
+  {
+    "canonical": "principle",
+    "synonyms": [ "value", "belief", "standard", "ethic" ]
+  },
+  {
+    "canonical": "value",
+    "synonyms": [ "principle", "standard", "belief", "ethic" ]
+  },
+  {
+    "canonical": "ethic",
+    "synonyms": [ "moral principle", "value", "standard", "code" ]
+  },
+  {
+    "canonical": "moral",
+    "synonyms": [ "ethical", "principled", "virtuous", "righteous" ]
+  },
+  {
+    "canonical": "ethical",
+    "synonyms": [ "moral", "principled", "righteous", "virtuous" ]
+  },
+  {
+    "canonical": "virtuous",
+    "synonyms": [ "moral", "ethical", "righteous", "good" ]
+  },
+  {
+    "canonical": "righteous",
+    "synonyms": [ "moral", "virtuous", "ethical", "just" ]
+  },
+  {
+    "canonical": "just",
+    "synonyms": [ "fair", "righteous", "equitable", "impartial" ]
+  },
+  {
+    "canonical": "fair",
+    "synonyms": [ "just", "equitable", "impartial", "unbiased" ]
+  },
+  {
+    "canonical": "equitable",
+    "synonyms": [ "fair", "just", "impartial", "balanced" ]
+  },
+  {
+    "canonical": "impartial",
+    "synonyms": [ "unbiased", "neutral", "fair", "objective" ]
+  },
+  {
+    "canonical": "unbiased",
+    "synonyms": [ "impartial", "neutral", "fair", "objective" ]
+  },
+  {
+    "canonical": "neutral",
+    "synonyms": [ "impartial", "unbiased", "objective", "nonpartisan" ]
+  },
+  {
+    "canonical": "objective",
+    "synonyms": [ "impartial", "unbiased", "neutral", "fact-based" ]
+  },
+  {
+    "canonical": "subjective",
+    "synonyms": [ "personal", "biased", "opinion-based", "individual" ]
+  },
+  {
+    "canonical": "personal",
+    "synonyms": [ "individual", "private", "own", "subjective" ]
+  },
+  {
+    "canonical": "individual",
+    "synonyms": [ "person", "single", "particular", "personal" ]
+  },
+  {
+    "canonical": "person",
+    "synonyms": [ "individual", "human", "being", "someone" ]
+  },
+  {
+    "canonical": "human",
+    "synonyms": [ "person", "individual", "homo sapiens", "being" ]
+  },
+  {
+    "canonical": "creature",
+    "synonyms": [ "being", "animal", "organism", "living thing" ]
+  },
+  {
+    "canonical": "organism",
+    "synonyms": [ "living being", "creature", "life form", "biological entity" ]
+  },
+  {
+    "canonical": "life form",
+    "synonyms": [ "organism", "living thing", "creature", "being" ]
+  },
+  {
+    "canonical": "biology",
+    "synonyms": [ "life science", "biological science", "study of life", "living organisms" ]
+  },
+  {
+    "canonical": "biological",
+    "synonyms": [ "organic", "living", "life-related", "natural" ]
+  },
+  {
+    "canonical": "organic",
+    "synonyms": [ "natural", "biological", "living", "carbon-based" ]
+  },
+  {
+    "canonical": "natural",
+    "synonyms": [ "organic", "biological", "untreated", "pure" ]
+  },
+  {
+    "canonical": "artificial",
+    "synonyms": [ "man-made", "synthetic", "fake", "created" ]
+  },
+  {
+    "canonical": "synthetic",
+    "synonyms": [ "artificial", "man-made", "lab-created", "fabricated" ]
+  },
+  {
+    "canonical": "man-made",
+    "synonyms": [ "artificial", "synthetic", "created", "constructed" ]
+  },
+  {
+    "canonical": "created",
+    "synonyms": [ "made", "produced", "fabricated", "constructed" ]
+  },
+  {
+    "canonical": "made",
+    "synonyms": [ "created", "produced", "manufactured", "constructed" ]
+  },
+  {
+    "canonical": "produced",
+    "synonyms": [ "made", "created", "manufactured", "generated" ]
+  },
+  {
+    "canonical": "manufactured",
+    "synonyms": [ "made", "produced", "fabricated", "constructed" ]
+  },
+  {
+    "canonical": "fabricated",
+    "synonyms": [ "made", "manufactured", "constructed", "built" ]
+  },
+  {
+    "canonical": "constructed",
+    "synonyms": [ "built", "made", "created", "erected" ]
+  },
+  {
+    "canonical": "built",
+    "synonyms": [ "constructed", "made", "created", "erected" ]
+  },
+  {
+    "canonical": "erected",
+    "synonyms": [ "built", "constructed", "raised", "put up" ]
+  },
+  {
+    "canonical": "raised",
+    "synonyms": [ "lifted", "elevated", "increased", "heightened" ]
+  },
+  {
+    "canonical": "lifted",
+    "synonyms": [ "raised", "elevated", "hoisted", "picked up" ]
+  },
+  {
+    "canonical": "elevated",
+    "synonyms": [ "raised", "lifted", "heightened", "upgraded" ]
+  },
+  {
+    "canonical": "heightened",
+    "synonyms": [ "increased", "raised", "amplified", "intensified" ]
+  },
+  {
+    "canonical": "increased",
+    "synonyms": [ "raised", "heightened", "amplified", "augmented" ]
+  },
+  {
+    "canonical": "amplified",
+    "synonyms": [ "increased", "heightened", "magnified", "enhanced" ]
+  },
+  {
+    "canonical": "magnified",
+    "synonyms": [ "enlarged", "amplified", "increased", "expanded" ]
+  }
+]
