@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ESP32 Software</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #0f1220;
+            color: white;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 30px;
+        }
+        .box {
+            width: 500px;
+            margin: 30px auto;
+            background: #1b1f3a;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        input[type=file] {
+            margin-top: 15px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px 25px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>ESP32 Software</h1>
+
+<div class="box">
+    <h2>ESP Software Info</h2>
+    <p>1 - 1</p>
+    <p>2 - 2</p>
+    <p>3 - 3</p>
+</div>
+
+<div class="box">
+    <h2>OTA Update</h2>
+    <form method="POST" action="/update" enctype="multipart/form-data">
+        <input type="file" name="update">
+        <br>
+        <button type="submit">Upload & Update</button>
+    </form>
+</div>
+
+</body>
+</html>

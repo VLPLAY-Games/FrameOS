@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>FrameOS</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #0f1220;
+            color: white;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 40px;
+            font-size: 48px;
+        }
+        .buttons {
+            margin-top: 50px;
+        }
+        .btn {
+            display: block;
+            width: 320px;
+            margin: 20px auto;
+            padding: 25px;
+            font-size: 24px;
+            background: #1e90ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+        .btn.disabled {
+            background: #555;
+            pointer-events: none;
+        }
+        .info {
+            margin-top: 60px;
+            font-size: 20px;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+
+<h1>FrameOS</h1>
+
+<div class="buttons">
+    <a class="btn" href="/esp32">ESP32 Software</a>
+    <a class="btn disabled">Luckfox Software</a>
+    <a class="btn disabled">Bridge Software</a>
+</div>
+
+<div class="info">
+    <h2>All info</h2>
+</div>
+
+</body>
+</html>
